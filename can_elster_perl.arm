@@ -1,0 +1,21 @@
+rm elster_perl.so
+
+swig -perl5 -module elster_perl -c++ elster_perl.i
+
+# Im Verzeichnis "CORE_PATH" sollte die Datei "EXTERN.h" stehen. 
+CORE_PATH="/usr/lib/x86_64-linux-gnu/perl/5.28.1/CORE"
+
+${CROSS_COMPILE}g++ -shared -Wall -D__LINUX__ -D__CONSOLE__ -D__CAN__ -D__ARM__ -DSWIG -fPIC -Wno-nonnull-compare -I${CORE_PATH} \
+  -L${CORE_PATH} -lc -lpthread -ldl -lperl \
+  elster_perl.cpp elster_perl_wrap.cxx elster_instance.cpp \
+  KIpSocket.cpp KThread.cpp KCriticalSection.cpp KCanDriver.cpp KComm.cpp KSocketCanDriver.cpp \
+  KCanCommDriver.cpp KCanServer.cpp KStream.cpp NUtils.cpp NCanUtils.cpp KElsterTable.cpp KScanTable.cpp KCanElster.cpp \
+  KCanTcpDriver.cpp KTcpClient.cpp KSniffedFrame.cpp \
+  -o elster_perl.so
+  
+# apt-get install libperl-dev
+# sudo cp elster_perl.so /opt/fhem/FHEM
+# sudo cp elster_perl.pm /opt/fhem/FHEM
+# sudo cp 50_Elster.pm   /opt/fhem/FHEM
+
+# ip link set can0 up type can bitrate 20000

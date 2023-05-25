@@ -1,0 +1,22 @@
+g++ -Wall -D__LINUX__ -D__MAC__ -D__CAN__ -D__CONSOLE__ -D__VZ__ -D__MYSQL__ -lc -lpthread -ldl \
+  ../KIpSocket.cpp \
+  ../KThread.cpp \
+  ../KCriticalSection.cpp \
+  ../KCanDriver.cpp \
+  ../KComm.cpp \
+  ../KCanCommDriver.cpp \
+  ../KCanServer.cpp \
+  ../KStream.cpp \
+  ../NUtils.cpp \
+  ../NCanUtils.cpp \
+  ../KXmlParser.cpp \
+  ../KXmlNodeList.cpp \
+  ../KTcpClient.cpp \
+  ../KHttpClient.cpp \
+  ../KMySql.cpp \
+  ../KElsterTable.cpp \
+  ../KScanTable.cpp \
+  ../KCanElster.cpp \
+  ../KSniffedFrame.cpp \
+  ../KCanTcpDriver.cpp \
+  -o can_vz

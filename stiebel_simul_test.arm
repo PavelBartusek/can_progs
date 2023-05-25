@@ -1,0 +1,21 @@
+ 
+g++ -Wall -D__LINUX__ -D__CAN__ -D__ARM__ -D__CONSOLE__ -D__MQTT__ -D__STIEBEL_SIMULATION__ -Wno-nonnull-compare -lc -lpthread \
+  KThread.cpp \
+  KCriticalSection.cpp \
+  KIpSocket.cpp \
+  KCanDriver.cpp \
+  KComm.cpp \
+  KCanCommDriver.cpp \
+  KCanServer_.cpp \
+  KStream.cpp \
+  NUtils.cpp \
+  NCanUtils.cpp \
+  KElsterTable.cpp \
+  KCanElster.cpp \
+  KScanTable.cpp \
+  KCanLogFile.cpp \
+  KSniffedFrame.cpp \
+  KCanTcpDriver.cpp \
+  KTcpClient.cpp \
+  KSocketCanDriver.cpp \
+  -o stiebel_simul

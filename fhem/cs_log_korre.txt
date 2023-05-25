@@ -1,0 +1,1527 @@
+send: 0d 00 03 01 00 fa 01 24 11 00 01 41
+recv: 03 00 0d 02 00 fa 01 24 11 00 01 42
+Elster 180.0124.1100: JAHR = 17
+send: 0d 00 03 01 00 fa 01 25 0f 00 01 40
+recv: 03 00 0d 02 00 fa 01 25 0f 00 01 41
+Elster 180.0125.0f00: STUNDE = 15
+send: 0d 00 03 01 00 fa 01 26 2d 00 01 5f
+recv: 03 00 0d 02 00 fa 01 26 2d 00 01 60
+Elster 180.0126.2d00: MINUTE = 45
+send: 0d 00 03 01 00 fa 01 27 17 00 01 4a
+recv: 03 00 0d 02 00 fa 01 27 17 00 01 4b
+Elster 180.0127.1700: SEKUNDE = 23
+send: 0d 00 03 01 00 fa 01 1b 01 00 01 28
+recv: 03 00 0d 02 00 fa 01 1b 01 00 01 29
+Elster 180.011b.0100: FERIENANFANG_TAG = 1
+send: 0d 00 03 01 00 fa 01 1c 01 00 01 29
+recv: 03 00 0d 02 00 fa 01 1c 01 00 01 2a
+Elster 180.011c.0100: FERIENANFANG_MONAT = 1
+send: 0d 00 03 01 00 fa 01 1d 09 00 01 32
+recv: 03 00 0d 02 00 fa 01 1d 09 00 01 33
+Elster 180.011d.0900: FERIENANFANG_JAHR = 9
+send: 0d 00 03 01 00 fa 01 1e 01 00 01 2b
+recv: 03 00 0d 02 00 fa 01 1e 01 00 01 2c
+Elster 180.011e.0100: FERIENENDE_TAG = 1
+send: 0d 00 03 01 00 fa 01 1f 01 00 01 2c
+recv: 03 00 0d 02 00 fa 01 1f 01 00 01 2d
+Elster 180.011f.0100: FERIENENDE_MONAT = 1
+send: 0d 00 03 01 00 fa 01 20 09 00 01 35
+recv: 03 00 0d 02 00 fa 01 20 09 00 01 36
+Elster 180.0120.0900: FERIENENDE_JAHR = 9
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa fd bf 00 00 02 c7
+recv: 03 00 0d 02 00 fa fd bf 00 00 02 c8
+Elster 180.fdbf.0000: DYNAMIK = 0
+send: 0d 00 06 01 01 fa 00 05 00 fa 02 0e
+recv: 06 01 0d 02 00 fa 00 05 00 fa 02 0f
+Elster 301.0005.00fa: RAUMSOLLTEMP_I = 25.0
+send: 0d 00 06 01 01 fa 00 08 00 e6 01 fd
+recv: 06 01 0d 02 00 fa 00 08 00 e6 01 fe
+Elster 301.0008.00e6: RAUMSOLLTEMP_NACHT = 23.0
+send: 0d 00 06 01 01 fa 01 0e 00 28 01 46
+recv: 06 01 0d 02 00 fa 01 0e 00 28 01 47
+Elster 301.010e.0028: HEIZKURVE = 0.40
+send: 0d 00 06 01 01 fa 00 58 02 00 01 69
+recv: 06 01 0d 02 00 fa 00 58 02 00 01 6a
+Elster 301.0058.0200: MISCHER_ZU = 2
+send: 0d 00 06 01 01 fa 00 28 01 f4 02 2c
+recv: 06 01 0d 02 00 fa 00 28 01 f4 02 2d
+Elster 301.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 06 01 02 fa 00 05 00 dc 01 f1
+recv: 06 02 0d 02 00 fa 00 05 00 dc 01 f2
+Elster 302.0005.00dc: RAUMSOLLTEMP_I = 22.0
+send: 0d 00 06 01 02 fa 00 08 00 c8 01 e0
+recv: 06 02 0d 02 00 fa 00 08 00 c8 01 e1
+Elster 302.0008.00c8: RAUMSOLLTEMP_NACHT = 20.0
+send: 0d 00 06 01 02 fa 01 0e 00 28 01 47
+recv: 06 02 0d 02 00 fa 01 0e 00 28 01 48
+Elster 302.010e.0028: HEIZKURVE = 0.40
+send: 0d 00 06 01 02 fa 00 58 02 00 01 6a
+recv: 06 02 0d 02 00 fa 00 58 02 00 01 6b
+Elster 302.0058.0200: MISCHER_ZU = 2
+send: 0d 00 06 01 02 fa 00 28 01 f4 02 2d
+recv: 06 02 0d 02 00 fa 00 28 01 f4 02 2e
+Elster 302.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 03 01 00 fa 00 13 01 e0 01 ff
+recv: 03 00 0d 02 00 fa 00 13 01 e0 02 00
+Elster 180.0013.01e0: EINSTELL_SPEICHERSOLLTEMP = 48.0
+send: 0d 00 03 01 00 fa 0a 06 01 c2 01 de
+recv: 03 00 0d 02 00 fa 0a 06 01 c2 01 df
+Elster 180.0a06.01c2: EINSTELL_SPEICHERSOLLTEMP2 = 45.0
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 01 12 03 00 01 21
+recv: 03 00 0d 02 00 fa 01 12 03 00 01 22
+Elster 180.0112.0300: PROGRAMMSCHALTER = Tagbetrieb
+send: 0d 00 03 01 00 fa 01 13 00 00 01 1f
+recv: 03 00 0d 02 00 fa 01 13 00 00 01 20
+Elster 180.0113.0000: SPRACHE = 0
+send: 0d 00 03 01 00 fa 01 22 1e 00 01 4c
+recv: 03 00 0d 02 00 fa 01 22 1e 01 01 4e
+Elster 180.0122.1e01: TAG = 286
+send: 0d 00 03 01 00 fa 01 23 01 00 01 30
+recv: 03 00 0d 02 00 fa 01 23 01 00 01 31
+Elster 180.0123.0100: MONAT = 1
+send: 0d 00 03 01 00 fa 01 24 11 00 01 41
+recv: 03 00 0d 02 00 fa 01 24 11 00 01 42
+Elster 180.0124.1100: JAHR = 17
+send: 0d 00 03 01 00 fa 01 25 0f 00 01 40
+recv: 03 00 0d 02 00 fa 01 25 0f 00 01 41
+Elster 180.0125.0f00: STUNDE = 15
+send: 0d 00 03 01 00 fa 01 26 2d 00 01 5f
+recv: 03 00 0d 02 00 fa 01 26 2d 00 01 60
+Elster 180.0126.2d00: MINUTE = 45
+send: 0d 00 03 01 00 fa 01 27 17 00 01 4a
+recv: 03 00 0d 02 00 fa 01 27 17 00 01 4b
+Elster 180.0127.1700: SEKUNDE = 23
+send: 0d 00 03 01 00 fa 01 1b 01 00 01 28
+recv: 03 00 0d 02 00 fa 01 1b 01 00 01 29
+Elster 180.011b.0100: FERIENANFANG_TAG = 1
+send: 0d 00 03 01 00 fa 01 1c 01 00 01 29
+recv: 03 00 0d 02 00 fa 01 1c 01 00 01 2a
+Elster 180.011c.0100: FERIENANFANG_MONAT = 1
+send: 0d 00 03 01 00 fa 01 1d 09 00 01 32
+recv: 03 00 0d 02 00 fa 01 1d 09 00 01 33
+Elster 180.011d.0900: FERIENANFANG_JAHR = 9
+send: 0d 00 03 01 00 fa 01 1e 01 00 01 2b
+recv: 03 00 0d 02 00 fa 01 1e 01 00 01 2c
+Elster 180.011e.0100: FERIENENDE_TAG = 1
+send: 0d 00 03 01 00 fa 01 1f 01 00 01 2c
+recv: 03 00 0d 02 00 fa 01 1f 01 00 01 2d
+Elster 180.011f.0100: FERIENENDE_MONAT = 1
+send: 0d 00 03 01 00 fa 01 20 09 00 01 35
+recv: 03 00 0d 02 00 fa 01 20 09 00 01 36
+Elster 180.0120.0900: FERIENENDE_JAHR = 9
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa fd bf 00 00 02 c7
+recv: 03 00 0d 02 00 fa fd bf 00 00 02 c8
+Elster 180.fdbf.0000: DYNAMIK = 0
+send: 0d 00 06 01 01 fa 00 05 00 fa 02 0e
+recv: 06 01 0d 02 00 fa 00 05 00 fa 02 0f
+Elster 301.0005.00fa: RAUMSOLLTEMP_I = 25.0
+send: 0d 00 06 01 01 fa 00 08 00 e6 01 fd
+recv: 06 01 0d 02 00 fa 00 08 00 e6 01 fe
+Elster 301.0008.00e6: RAUMSOLLTEMP_NACHT = 23.0
+send: 0d 00 06 01 01 fa 01 0e 00 28 01 46
+recv: 06 01 0d 02 00 fa 01 0e 00 28 01 47
+Elster 301.010e.0028: HEIZKURVE = 0.40
+send: 0d 00 06 01 01 fa 00 58 02 00 01 69
+recv: 06 01 0d 02 00 fa 00 58 02 00 01 6a
+Elster 301.0058.0200: MISCHER_ZU = 2
+send: 0d 00 06 01 01 fa 00 28 01 f4 02 2c
+recv: 06 01 0d 02 00 fa 00 28 01 f4 02 2d
+Elster 301.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 06 01 02 fa 00 05 00 dc 01 f1
+recv: 06 02 0d 02 00 fa 00 05 00 dc 01 f2
+Elster 302.0005.00dc: RAUMSOLLTEMP_I = 22.0
+send: 0d 00 06 01 02 fa 00 08 00 c8 01 e0
+recv: 06 02 0d 02 00 fa 00 08 00 c8 01 e1
+Elster 302.0008.00c8: RAUMSOLLTEMP_NACHT = 20.0
+send: 0d 00 06 01 02 fa 01 0e 00 28 01 47
+recv: 06 02 0d 02 00 fa 01 0e 00 28 01 48
+Elster 302.010e.0028: HEIZKURVE = 0.40
+send: 0d 00 06 01 02 fa 00 58 02 00 01 6a
+recv: 06 02 0d 02 00 fa 00 58 02 00 01 6b
+Elster 302.0058.0200: MISCHER_ZU = 2
+send: 0d 00 06 01 02 fa 00 28 01 f4 02 2d
+recv: 06 02 0d 02 00 fa 00 28 01 f4 02 2e
+Elster 302.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 03 01 00 fa 00 13 01 e0 01 ff
+recv: 03 00 0d 02 00 fa 00 13 01 e0 02 00
+Elster 180.0013.01e0: EINSTELL_SPEICHERSOLLTEMP = 48.0
+send: 0d 00 03 01 00 fa 0a 06 01 c2 01 de
+recv: 03 00 0d 02 00 fa 0a 06 01 c2 01 df
+Elster 180.0a06.01c2: EINSTELL_SPEICHERSOLLTEMP2 = 45.0
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 01 12 03 00 01 21
+recv: 03 00 0d 02 00 fa 01 12 03 00 01 22
+Elster 180.0112.0300: PROGRAMMSCHALTER = Tagbetrieb
+send: 0d 00 03 01 00 fa 01 13 00 00 01 1f
+recv: 03 00 0d 02 00 fa 01 13 00 00 01 20
+Elster 180.0113.0000: SPRACHE = 0
+send: 0d 00 03 01 00 fa 01 22 1e 00 01 4c
+recv: 03 00 0d 02 00 fa 01 22 1e 01 01 4e
+Elster 180.0122.1e01: TAG = 286
+send: 0d 00 03 01 00 fa 01 23 01 00 01 30
+recv: 03 00 0d 02 00 fa 01 23 01 00 01 31
+Elster 180.0123.0100: MONAT = 1
+send: 0d 00 03 01 00 fa 01 24 11 00 01 41
+recv: 03 00 0d 02 00 fa 01 24 11 00 01 42
+Elster 180.0124.1100: JAHR = 17
+send: 0d 00 03 01 00 fa 01 25 0f 00 01 40
+recv: 03 00 0d 02 00 fa 01 25 0f 00 01 41
+Elster 180.0125.0f00: STUNDE = 15
+send: 0d 00 03 01 00 fa 01 26 2d 00 01 5f
+recv: 03 00 0d 02 00 fa 01 26 2d 00 01 60
+Elster 180.0126.2d00: MINUTE = 45
+send: 0d 00 03 01 00 fa 01 27 17 00 01 4a
+recv: 03 00 0d 02 00 fa 01 27 17 00 01 4b
+Elster 180.0127.1700: SEKUNDE = 23
+send: 0d 00 03 01 00 fa 01 1b 01 00 01 28
+recv: 03 00 0d 02 00 fa 01 1b 01 00 01 29
+Elster 180.011b.0100: FERIENANFANG_TAG = 1
+send: 0d 00 03 01 00 fa 01 1c 01 00 01 29
+recv: 03 00 0d 02 00 fa 01 1c 01 00 01 2a
+Elster 180.011c.0100: FERIENANFANG_MONAT = 1
+send: 0d 00 03 01 00 fa 01 1d 09 00 01 32
+recv: 03 00 0d 02 00 fa 01 1d 09 00 01 33
+Elster 180.011d.0900: FERIENANFANG_JAHR = 9
+send: 0d 00 03 01 00 fa 01 1e 01 00 01 2b
+recv: 03 00 0d 02 00 fa 01 1e 01 00 01 2c
+Elster 180.011e.0100: FERIENENDE_TAG = 1
+send: 0d 00 03 01 00 fa 01 1f 01 00 01 2c
+recv: 03 00 0d 02 00 fa 01 1f 01 00 01 2d
+Elster 180.011f.0100: FERIENENDE_MONAT = 1
+send: 0d 00 03 01 00 fa 01 20 09 00 01 35
+recv: 03 00 0d 02 00 fa 01 20 09 00 01 36
+Elster 180.0120.0900: FERIENENDE_JAHR = 9
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa fd bf 00 00 02 c7
+recv: 03 00 0d 02 00 fa fd bf 00 00 02 c8
+Elster 180.fdbf.0000: DYNAMIK = 0
+send: 0d 00 06 01 01 fa 00 05 00 fa 02 0e
+recv: 06 01 0d 02 00 fa 00 05 00 fa 02 0f
+Elster 301.0005.00fa: RAUMSOLLTEMP_I = 25.0
+send: 0d 00 06 01 01 fa 14 10 18 58 01 a3
+recv: 06 01 0d 02 00 fa 14 10 14 54 01 9c
+Elster 301.1410.1454: HEIZPROG_1_MO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 11 80 80 02 34
+recv: 06 01 0d 02 00 fa 14 11 80 80 02 35
+Elster 301.1411.8080: HEIZPROG_1_MO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 12 80 80 02 35
+recv: 06 01 0d 02 00 fa 14 12 80 80 02 36
+Elster 301.1412.8080: HEIZPROG_1_MO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 20 18 58 01 b3
+recv: 06 01 0d 02 00 fa 14 20 14 54 01 ac
+Elster 301.1420.1454: HEIZPROG_1_DI = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 21 80 80 02 44
+recv: 06 01 0d 02 00 fa 14 21 80 80 02 45
+Elster 301.1421.8080: HEIZPROG_1_DI_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 22 80 80 02 45
+recv: 06 01 0d 02 00 fa 14 22 80 80 02 46
+Elster 301.1422.8080: HEIZPROG_1_DI_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 30 18 58 01 c3
+recv: 06 01 0d 02 00 fa 14 30 14 54 01 bc
+Elster 301.1430.1454: HEIZPROG_1_MI = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 31 80 80 02 54
+recv: 06 01 0d 02 00 fa 14 31 80 80 02 55
+Elster 301.1431.8080: HEIZPROG_1_MI_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 32 80 80 02 55
+recv: 06 01 0d 02 00 fa 14 32 80 80 02 56
+Elster 301.1432.8080: HEIZPROG_1_MI_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 40 18 58 01 d3
+recv: 06 01 0d 02 00 fa 14 40 14 54 01 cc
+Elster 301.1440.1454: HEIZPROG_1_DO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 41 80 80 02 64
+recv: 06 01 0d 02 00 fa 14 41 80 80 02 65
+Elster 301.1441.8080: HEIZPROG_1_DO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 42 80 80 02 65
+recv: 06 01 0d 02 00 fa 14 42 80 80 02 66
+Elster 301.1442.8080: HEIZPROG_1_DO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 50 18 58 01 e3
+recv: 06 01 0d 02 00 fa 14 50 14 54 01 dc
+Elster 301.1450.1454: HEIZPROG_1_FR = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 51 80 80 02 74
+recv: 06 01 0d 02 00 fa 14 51 80 80 02 75
+Elster 301.1451.8080: HEIZPROG_1_FR_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 52 80 80 02 75
+recv: 06 01 0d 02 00 fa 14 52 80 80 02 76
+Elster 301.1452.8080: HEIZPROG_1_FR_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 60 1c 5c 01 fb
+recv: 06 01 0d 02 00 fa 14 60 14 54 01 ec
+Elster 301.1460.1454: HEIZPROG_1_SA = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 61 80 80 02 84
+recv: 06 01 0d 02 00 fa 14 61 80 80 02 85
+Elster 301.1461.8080: HEIZPROG_1_SA_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 62 80 80 02 85
+recv: 06 01 0d 02 00 fa 14 62 80 80 02 86
+Elster 301.1462.8080: HEIZPROG_1_SA_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 70 1c 5c 02 0b
+recv: 06 01 0d 02 00 fa 14 70 14 54 01 fc
+Elster 301.1470.1454: HEIZPROG_1_SO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 71 80 80 02 94
+recv: 06 01 0d 02 00 fa 14 71 80 80 02 95
+Elster 301.1471.8080: HEIZPROG_1_SO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 72 80 80 02 95
+recv: 06 01 0d 02 00 fa 14 72 80 80 02 96
+Elster 301.1472.8080: HEIZPROG_1_SO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 10 14 54 01 9b
+recv: 06 01 0d 02 00 fa 14 10 14 54 01 9c
+Elster 301.1410.1454: HEIZPROG_1_MO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 11 80 80 02 34
+recv: 06 01 0d 02 00 fa 14 11 80 80 02 35
+Elster 301.1411.8080: HEIZPROG_1_MO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 12 80 80 02 35
+recv: 06 01 0d 02 00 fa 14 12 80 80 02 36
+Elster 301.1412.8080: HEIZPROG_1_MO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 20 14 54 01 ab
+recv: 06 01 0d 02 00 fa 14 20 14 54 01 ac
+Elster 301.1420.1454: HEIZPROG_1_DI = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 21 80 80 02 44
+recv: 06 01 0d 02 00 fa 14 21 80 80 02 45
+Elster 301.1421.8080: HEIZPROG_1_DI_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 22 80 80 02 45
+recv: 06 01 0d 02 00 fa 14 22 80 80 02 46
+Elster 301.1422.8080: HEIZPROG_1_DI_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 30 14 54 01 bb
+recv: 06 01 0d 02 00 fa 14 30 14 54 01 bc
+Elster 301.1430.1454: HEIZPROG_1_MI = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 31 80 80 02 54
+recv: 06 01 0d 02 00 fa 14 31 80 80 02 55
+Elster 301.1431.8080: HEIZPROG_1_MI_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 32 80 80 02 55
+recv: 06 01 0d 02 00 fa 14 32 80 80 02 56
+Elster 301.1432.8080: HEIZPROG_1_MI_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 40 14 54 01 cb
+recv: 06 01 0d 02 00 fa 14 40 14 54 01 cc
+Elster 301.1440.1454: HEIZPROG_1_DO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 41 80 80 02 64
+recv: 06 01 0d 02 00 fa 14 41 80 80 02 65
+Elster 301.1441.8080: HEIZPROG_1_DO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 42 80 80 02 65
+recv: 06 01 0d 02 00 fa 14 42 80 80 02 66
+Elster 301.1442.8080: HEIZPROG_1_DO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 50 14 54 01 db
+recv: 06 01 0d 02 00 fa 14 50 14 54 01 dc
+Elster 301.1450.1454: HEIZPROG_1_FR = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 51 80 80 02 74
+recv: 06 01 0d 02 00 fa 14 51 80 80 02 75
+Elster 301.1451.8080: HEIZPROG_1_FR_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 52 80 80 02 75
+recv: 06 01 0d 02 00 fa 14 52 80 80 02 76
+Elster 301.1452.8080: HEIZPROG_1_FR_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 60 14 54 01 eb
+recv: 06 01 0d 02 00 fa 14 60 14 54 01 ec
+Elster 301.1460.1454: HEIZPROG_1_SA = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 61 80 80 02 84
+recv: 06 01 0d 02 00 fa 14 61 80 80 02 85
+Elster 301.1461.8080: HEIZPROG_1_SA_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 62 80 80 02 85
+recv: 06 01 0d 02 00 fa 14 62 80 80 02 86
+Elster 301.1462.8080: HEIZPROG_1_SA_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 70 14 54 01 fb
+recv: 06 01 0d 02 00 fa 14 70 14 54 01 fc
+Elster 301.1470.1454: HEIZPROG_1_SO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 71 80 80 02 94
+recv: 06 01 0d 02 00 fa 14 71 80 80 02 95
+Elster 301.1471.8080: HEIZPROG_1_SO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 72 80 80 02 95
+recv: 06 01 0d 02 00 fa 14 72 80 80 02 96
+Elster 301.1472.8080: HEIZPROG_1_SO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 10 14 54 01 9b
+recv: 06 01 0d 02 00 fa 14 10 14 54 01 9c
+Elster 301.1410.1454: HEIZPROG_1_MO = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 11 80 80 02 34
+recv: 06 01 0d 02 00 fa 14 11 80 80 02 35
+Elster 301.1411.8080: HEIZPROG_1_MO_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 12 80 80 02 35
+recv: 06 01 0d 02 00 fa 14 12 80 80 02 36
+Elster 301.1412.8080: HEIZPROG_1_MO_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 20 14 54 01 ab
+recv: 06 01 0d 02 00 fa 14 20 14 54 01 ac
+Elster 301.1420.1454: HEIZPROG_1_DI = 05:00-21:00
+send: 0d 00 06 01 01 fa 14 21 80 80 02 44
+recv: 06 01 0d 02 00 fa 14 21 80 80 02 45
+Elster 301.1421.8080: HEIZPROG_1_DI_SCHALT_2 = not used time domain
+send: 0d 00 06 01 01 fa 14 22 80 80 02 45
+recv: 06 01 0d 02 00 fa 14 22 80 80 02 46
+Elster 301.1422.8080: HEIZPROG_1_DI_SCHALT_3 = not used time domain
+send: 0d 00 06 01 01 fa 14 30 14 54 01 bb
+recv: 06 01 0d 02 00 fa 14 30 14 54 01 bc
+Elster 301.1430.1454: HEIZPROG_1_MI = 05:00-21:00
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 00 0c 80 08 01 9f
+recv: 03 00 0d 02 00 fa 00 0c 00 23 01 3b
+Elster 180.000c.0023: AUSSENTEMP = 3.5
+send: 0d 00 0c 01 01 fa 00 12 80 08 01 af
+recv: 0c 01 0d 02 00 fa 00 12 fe 70 02 96
+Elster 601.0012.fe70: VERSTELLTE_RAUMSOLLTEMP = -40.0
+send: 0d 00 03 01 00 fa 00 03 80 08 01 96
+recv: 03 00 0d 02 00 fa 00 03 01 e0 01 f0
+Elster 180.0003.01e0: SPEICHERSOLLTEMP = 48.0
+send: 0d 00 03 01 00 fa 00 16 80 08 01 a9
+recv: 03 00 0d 02 00 fa 00 16 01 54 01 77
+Elster 180.0016.0154: RUECKLAUFISTTEMP = 34.0
+send: 0d 00 06 01 01 fa 00 04 80 08 01 9b
+recv: 06 01 0d 02 00 fa 00 04 01 4e 01 63
+Elster 301.0004.014e: VORLAUFSOLLTEMP = 33.4
+send: 0d 00 0c 01 02 fa 00 0f 80 08 01 ad
+recv: 0c 02 0d 02 00 fa 00 0f 01 25 01 4c
+Elster 602.000f.0125: VORLAUFISTTEMP = 29.3
+send: 0d 00 0c 01 02 fa 00 04 80 08 01 a2
+recv: 0c 02 0d 02 00 fa 00 04 01 27 01 43
+Elster 602.0004.0127: VORLAUFSOLLTEMP = 29.5
+send: 0d 00 03 01 00 fa 01 c0 00 c8 02 94
+recv: 03 00 0d 02 00 fa 01 c0 a0 00 02 6d
+Elster 180.01c0.a000: FESTWERT = 160
+send: 0d 00 03 01 00 fa 01 d5 80 08 02 69
+recv: 03 00 0d 02 00 fa 01 d5 01 4e 02 31
+Elster 180.01d5.014e: PUFFERSOLL = 33.4
+send: 0d 00 03 01 00 fa 01 d6 80 08 02 6a
+recv: 03 00 0d 02 00 fa 01 d6 01 79 02 5d
+Elster 180.01d6.0179: WPVORLAUFIST = 37.7
+send: 0d 00 03 01 00 fa 01 e8 02 58 02 4e
+recv: 03 00 0d 02 00 fa 01 e8 02 58 02 4f
+Elster 180.01e8.0258: MAX_HEIZUNG_TEMP = 60.0
+send: 0d 00 03 01 00 fa 01 d4 80 08 02 68
+recv: 03 00 0d 02 00 fa 01 d4 00 30 02 11
+Elster 180.01d4.0030: QUELLE_IST = 4.8
+send: 0d 00 03 01 00 fa 01 b0 ff ce 03 89
+recv: 03 00 0d 02 00 fa 01 b0 ff ce 03 8a
+Elster 180.01b0.ffce: QUELLENSOLLTEMPERATUR = -5.0
+send: 0d 00 03 01 00 fa 01 ac 00 64 02 1c
+recv: 03 00 0d 02 00 fa 01 ac ff 6a 03 22
+Elster 180.01ac.ff6a: BIVALENTPARALLELTEMPERATUR_HZG = -15.0
+send: 0d 00 03 01 00 fa 01 ad 00 64 02 1d
+recv: 03 00 0d 02 00 fa 01 ad ff 42 02 fb
+Elster 180.01ad.ff42: BIVALENTPARALLELTEMPERATUR_WW = -19.0
+send: 0d 00 03 01 00 fa 01 ae ff 3d 02 f6
+recv: 03 00 0d 02 00 fa 01 ae a0 00 02 5b
+Elster 180.01ae.a000: BIVALENZALTERNATIVTEMPERATUR_HZG = -2457.6
+send: 0d 00 03 01 00 fa 01 af ff 3d 02 f7
+recv: 03 00 0d 02 00 fa 01 af a0 00 02 5c
+Elster 180.01af.a000: BIVALENZALTERNATIVTEMPERATUR_WW = -2457.6
+send: 0d 00 03 01 00 fa 0a 00 00 28 01 3d
+recv: 03 00 0d 02 00 fa 0a 00 00 32 01 48
+Elster 180.0a00.0032: AUSSEN_FROSTTEMP = 5.0
+send: 0d 00 03 01 00 fa 02 65 80 08 01 fa
+recv: 03 00 0d 02 00 fa 02 65 02 af 02 24
+Elster 180.0265.02af: HEISSGAS_TEMP = 68.7
+send: 0d 00 03 01 00 fa 02 68 80 08 01 fd
+recv: 03 00 0d 02 00 fa 02 68 00 f6 02 6c
+Elster 180.0268.00f6: MASCHINENDRUCK = 246
+send: 0d 00 03 01 00 fa 07 a5 80 08 02 3f
+recv: 03 00 0d 02 00 fa 07 a5 00 51 02 09
+Elster 180.07a5.0051: MESSSTROM_NIEDERDRUCK = 81
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 00 0c 00 23 01 3a
+recv: 03 00 0d 02 00 fa 00 0c 00 23 01 3b
+Elster 180.000c.0023: AUSSENTEMP = 3.5
+send: 0d 00 0c 01 01 fa 00 12 fe 70 02 95
+recv: 0c 01 0d 02 00 fa 00 12 fe 70 02 96
+Elster 601.0012.fe70: VERSTELLTE_RAUMSOLLTEMP = -40.0
+send: 0d 00 03 01 00 fa 00 03 01 e0 01 ef
+recv: 03 00 0d 02 00 fa 00 03 01 e0 01 f0
+Elster 180.0003.01e0: SPEICHERSOLLTEMP = 48.0
+send: 0d 00 03 01 00 fa 00 16 01 54 01 76
+recv: 03 00 0d 02 00 fa 00 16 01 54 01 77
+Elster 180.0016.0154: RUECKLAUFISTTEMP = 34.0
+send: 0d 00 06 01 01 fa 00 04 01 4e 01 62
+recv: 06 01 0d 02 00 fa 00 04 01 4e 01 63
+Elster 301.0004.014e: VORLAUFSOLLTEMP = 33.4
+send: 0d 00 0c 01 02 fa 00 0f 01 25 01 4b
+recv: 0c 02 0d 02 00 fa 00 0f 01 25 01 4c
+Elster 602.000f.0125: VORLAUFISTTEMP = 29.3
+send: 0d 00 0c 01 02 fa 00 04 01 27 01 42
+recv: 0c 02 0d 02 00 fa 00 04 01 27 01 43
+Elster 602.0004.0127: VORLAUFSOLLTEMP = 29.5
+send: 0d 00 03 01 00 fa 01 c0 a0 00 02 6c
+recv: 03 00 0d 02 00 fa 01 c0 a0 00 02 6d
+Elster 180.01c0.a000: FESTWERT = 160
+send: 0d 00 03 01 00 fa 01 d5 01 4e 02 30
+recv: 03 00 0d 02 00 fa 01 d5 01 4e 02 31
+Elster 180.01d5.014e: PUFFERSOLL = 33.4
+send: 0d 00 03 01 00 fa 01 d6 01 79 02 5c
+recv: 03 00 0d 02 00 fa 01 d6 01 79 02 5d
+Elster 180.01d6.0179: WPVORLAUFIST = 37.7
+send: 0d 00 03 01 00 fa 01 e8 02 58 02 4e
+recv: 03 00 0d 02 00 fa 01 e8 02 58 02 4f
+Elster 180.01e8.0258: MAX_HEIZUNG_TEMP = 60.0
+send: 0d 00 03 01 00 fa 01 d4 00 30 02 10
+recv: 03 00 0d 02 00 fa 01 d4 00 30 02 11
+Elster 180.01d4.0030: QUELLE_IST = 4.8
+send: 0d 00 03 01 00 fa 01 b0 ff ce 03 89
+recv: 03 00 0d 02 00 fa 01 b0 ff ce 03 8a
+Elster 180.01b0.ffce: QUELLENSOLLTEMPERATUR = -5.0
+send: 0d 00 03 01 00 fa 01 ac ff 6a 03 21
+recv: 03 00 0d 02 00 fa 01 ac ff 6a 03 22
+Elster 180.01ac.ff6a: BIVALENTPARALLELTEMPERATUR_HZG = -15.0
+send: 0d 00 03 01 00 fa 01 ad ff 42 02 fa
+recv: 03 00 0d 02 00 fa 01 ad ff 42 02 fb
+Elster 180.01ad.ff42: BIVALENTPARALLELTEMPERATUR_WW = -19.0
+send: 0d 00 03 01 00 fa 01 ae a0 00 02 5a
+recv: 03 00 0d 02 00 fa 01 ae a0 00 02 5b
+Elster 180.01ae.a000: BIVALENZALTERNATIVTEMPERATUR_HZG = -2457.6
+send: 0d 00 03 01 00 fa 01 af a0 00 02 5b
+recv: 03 00 0d 02 00 fa 01 af a0 00 02 5c
+Elster 180.01af.a000: BIVALENZALTERNATIVTEMPERATUR_WW = -2457.6
+send: 0d 00 03 01 00 fa 0a 00 00 32 01 47
+recv: 03 00 0d 02 00 fa 0a 00 00 32 01 48
+Elster 180.0a00.0032: AUSSEN_FROSTTEMP = 5.0
+send: 0d 00 03 01 00 fa 02 65 02 af 02 23
+recv: 03 00 0d 02 00 fa 02 65 02 af 02 24
+Elster 180.0265.02af: HEISSGAS_TEMP = 68.7
+send: 0d 00 03 01 00 fa 02 68 00 f6 02 6b
+recv: 03 00 0d 02 00 fa 02 68 00 f6 02 6c
+Elster 180.0268.00f6: MASCHINENDRUCK = 246
+send: 0d 00 03 01 00 fa 07 a5 00 51 02 08
+recv: 03 00 0d 02 00 fa 07 a5 00 51 02 09
+Elster 180.07a5.0051: MESSSTROM_NIEDERDRUCK = 81
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 00 0c 00 23 01 3a
+recv: 03 00 0d 02 00 fa 00 0c 00 23 01 3b
+Elster 180.000c.0023: AUSSENTEMP = 3.5
+send: 0d 00 0c 01 01 fa 00 12 fe 70 02 95
+recv: 0c 01 0d 02 00 fa 00 12 fe 70 02 96
+Elster 601.0012.fe70: VERSTELLTE_RAUMSOLLTEMP = -40.0
+send: 0d 00 09 01 00 fa 02 59 f3 34 02 93
+recv: 09 00 0d 02 00 fa 02 59 00 23 01 90
+Elster 480.0259.0023: LAUFZEIT_DHC1 = 35
+send: 0d 00 09 01 00 fa 02 5a f3 34 02 94
+recv: 09 00 0d 02 00 fa 02 5a 00 17 01 85
+Elster 480.025a.0017: LAUFZEIT_DHC2 = 23
+send: 0d 00 09 01 00 fa 08 05 f3 34 02 45
+recv: 09 00 0d 02 00 fa 08 05 00 f7 02 16
+Elster 480.0805.00f7: LZ_DHC12 = 247
+send: 0d 00 09 01 00 fa 07 fc f3 34 03 3b
+recv: 09 00 0d 02 00 fa 07 fc 1e 93 02 c6
+Elster 480.07fc.1e93: LZ_VERD_1_HEIZBETRIEB = 7.827
+send: 0d 00 09 01 00 fa 07 ff f3 34 03 3e
+recv: 09 00 0d 02 00 fa 07 ff 00 00 02 18
+Elster 480.07ff.0000: LZ_VERD_1_KUEHLBETRIEB = 0.000
+send: 0d 00 09 01 00 fa 08 02 f3 34 02 42
+recv: 09 00 0d 02 00 fa 08 02 08 54 01 78
+Elster 480.0802.0854: LZ_VERD_1_WW_BETRIEB = 2132
+send: 0d 00 09 01 00 fa 01 cc f3 34 03 05
+recv: 09 00 0d 02 00 fa 01 cc 03 fd 02 df
+Elster 480.01cc.03fd: STILLSTANDZEIT_0 = 1021
+send: 0d 00 09 01 00 fa 09 2e f3 34 02 6f
+recv: 09 00 0d 02 00 fa 09 2e 00 73 01 bc
+Elster 480.092e.0073: WAERMEERTRAG_HEIZ_TAG_WH = 115
+send: 0d 00 09 01 00 fa 09 2f f3 34 02 70
+recv: 09 00 0d 02 00 fa 09 2f 00 31 01 7b
+Elster 480.092f.0031: WAERMEERTRAG_HEIZ_TAG_KWH = 49
+send: 0d 00 09 01 00 fa 09 30 f3 34 02 71
+recv: 09 00 0d 02 00 fa 09 30 03 de 02 2c
+Elster 480.0930.03de: WAERMEERTRAG_HEIZ_SUM_KWH = 990
+send: 0d 00 09 01 00 fa 09 31 f3 34 02 72
+recv: 09 00 0d 02 00 fa 09 31 00 5b 01 a7
+Elster 480.0931.005b: WAERMEERTRAG_HEIZ_SUM_MWH = 91
+send: 0d 00 09 01 00 fa 09 2a f3 34 02 6b
+recv: 09 00 0d 02 00 fa 09 2a 00 7c 01 c1
+Elster 480.092a.007c: WAERMEERTRAG_WW_TAG_WH = 124
+send: 0d 00 09 01 00 fa 09 2b f3 34 02 6c
+recv: 09 00 0d 02 00 fa 09 2b 00 09 01 4f
+Elster 480.092b.0009: WAERMEERTRAG_WW_TAG_KWH = 9
+send: 0d 00 09 01 00 fa 09 2c f3 34 02 6d
+recv: 09 00 0d 02 00 fa 09 2c 01 8e 01 d6
+Elster 480.092c.018e: WAERMEERTRAG_WW_SUM_KWH = 398
+send: 0d 00 09 01 00 fa 09 2d f3 34 02 6e
+recv: 09 00 0d 02 00 fa 09 2d 00 1a 01 62
+Elster 480.092d.001a: WAERMEERTRAG_WW_SUM_MWH = 26
+send: 0d 00 09 01 00 fa 09 27 f3 34 02 68
+recv: 09 00 0d 02 00 fa 09 27 02 fa 02 3e
+Elster 480.0927.02fa: WAERMEERTRAG_2WE_HEIZ_TAG_KWH = 762
+send: 0d 00 09 01 00 fa 09 28 f3 34 02 69
+recv: 09 00 0d 02 00 fa 09 28 00 03 01 46
+Elster 480.0928.0003: WAERMEERTRAG_2WE_HEIZ_SUM_KWH = 3
+send: 0d 00 09 01 00 fa 09 29 f3 34 02 6a
+recv: 09 00 0d 02 00 fa 09 29 00 00 01 44
+Elster 480.0929.0000: WAERMEERTRAG_2WE_HEIZ_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 09 23 f3 34 02 64
+recv: 09 00 0d 02 00 fa 09 23 00 24 01 62
+Elster 480.0923.0024: WAERMEERTRAG_2WE_WW_TAG_KWH = 36
+send: 0d 00 09 01 00 fa 09 24 f3 34 02 65
+recv: 09 00 0d 02 00 fa 09 24 00 01 01 40
+Elster 480.0924.0001: WAERMEERTRAG_2WE_WW_SUM_KWH = 1
+send: 0d 00 09 01 00 fa 09 25 f3 34 02 66
+recv: 09 00 0d 02 00 fa 09 25 00 00 01 40
+Elster 480.0925.0000: WAERMEERTRAG_2WE_WW_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 09 1e f3 34 02 5f
+recv: 09 00 0d 02 00 fa 09 1e 00 34 01 6d
+Elster 480.091e.0034: EL_AUFNAHMELEISTUNG_HEIZ_TAG_WH = 52
+send: 0d 00 09 01 00 fa 09 1f f3 34 02 60
+recv: 09 00 0d 02 00 fa 09 1f 00 0b 01 45
+Elster 480.091f.000b: EL_AUFNAHMELEISTUNG_HEIZ_TAG_KWH = 11
+send: 0d 00 09 01 00 fa 09 20 f3 34 02 61
+recv: 09 00 0d 02 00 fa 09 20 00 dc 02 17
+Elster 480.0920.00dc: EL_AUFNAHMELEISTUNG_HEIZ_SUM_KWH = 220
+send: 0d 00 09 01 00 fa 09 21 f3 34 02 62
+recv: 09 00 0d 02 00 fa 09 21 00 13 01 4f
+Elster 480.0921.0013: EL_AUFNAHMELEISTUNG_HEIZ_SUM_MWH = 19
+send: 0d 00 09 01 00 fa 09 1a f3 34 02 5b
+recv: 09 00 0d 02 00 fa 09 1a 01 38 01 6e
+Elster 480.091a.0138: EL_AUFNAHMELEISTUNG_WW_TAG_WH = 312
+send: 0d 00 09 01 00 fa 09 1b f3 34 02 5c
+recv: 09 00 0d 02 00 fa 09 1b 00 24 01 5a
+Elster 480.091b.0024: EL_AUFNAHMELEISTUNG_WW_TAG_KWH = 36
+send: 0d 00 09 01 00 fa 09 1c f3 34 02 5d
+recv: 09 00 0d 02 00 fa 09 1c 00 01 01 38
+Elster 480.091c.0001: EL_AUFNAHMELEISTUNG_WW_SUM_KWH = 1
+send: 0d 00 09 01 00 fa 09 1d f3 34 02 5e
+recv: 09 00 0d 02 00 fa 09 1d 00 00 01 38
+Elster 480.091d.0000: EL_AUFNAHMELEISTUNG_WW_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 02 59 00 23 01 8f
+recv: 09 00 0d 02 00 fa 02 59 00 23 01 90
+Elster 480.0259.0023: LAUFZEIT_DHC1 = 35
+send: 0d 00 09 01 00 fa 02 5a 00 17 01 84
+recv: 09 00 0d 02 00 fa 02 5a 00 17 01 85
+Elster 480.025a.0017: LAUFZEIT_DHC2 = 23
+send: 0d 00 09 01 00 fa 08 05 00 f7 02 15
+recv: 09 00 0d 02 00 fa 08 05 00 f7 02 16
+Elster 480.0805.00f7: LZ_DHC12 = 247
+send: 0d 00 09 01 00 fa 07 fc 1e 93 02 c5
+recv: 09 00 0d 02 00 fa 07 fc 1e 93 02 c6
+Elster 480.07fc.1e93: LZ_VERD_1_HEIZBETRIEB = 7.827
+send: 0d 00 09 01 00 fa 07 ff 00 00 02 17
+recv: 09 00 0d 02 00 fa 07 ff 00 00 02 18
+Elster 480.07ff.0000: LZ_VERD_1_KUEHLBETRIEB = 0.000
+send: 0d 00 09 01 00 fa 08 02 08 54 01 77
+recv: 09 00 0d 02 00 fa 08 02 08 54 01 78
+Elster 480.0802.0854: LZ_VERD_1_WW_BETRIEB = 2132
+send: 0d 00 09 01 00 fa 01 cc 03 fd 02 de
+recv: 09 00 0d 02 00 fa 01 cc 03 fd 02 df
+Elster 480.01cc.03fd: STILLSTANDZEIT_0 = 1021
+send: 0d 00 09 01 00 fa 09 2e 00 73 01 bb
+recv: 09 00 0d 02 00 fa 09 2e 00 73 01 bc
+Elster 480.092e.0073: WAERMEERTRAG_HEIZ_TAG_WH = 115
+send: 0d 00 09 01 00 fa 09 2f 00 31 01 7a
+recv: 09 00 0d 02 00 fa 09 2f 00 31 01 7b
+Elster 480.092f.0031: WAERMEERTRAG_HEIZ_TAG_KWH = 49
+send: 0d 00 09 01 00 fa 09 30 03 de 02 2b
+recv: 09 00 0d 02 00 fa 09 30 03 de 02 2c
+Elster 480.0930.03de: WAERMEERTRAG_HEIZ_SUM_KWH = 990
+send: 0d 00 09 01 00 fa 09 31 00 5b 01 a6
+recv: 09 00 0d 02 00 fa 09 31 00 5b 01 a7
+Elster 480.0931.005b: WAERMEERTRAG_HEIZ_SUM_MWH = 91
+send: 0d 00 09 01 00 fa 09 2a 00 7c 01 c0
+recv: 09 00 0d 02 00 fa 09 2a 00 7c 01 c1
+Elster 480.092a.007c: WAERMEERTRAG_WW_TAG_WH = 124
+send: 0d 00 09 01 00 fa 09 2b 00 09 01 4e
+recv: 09 00 0d 02 00 fa 09 2b 00 09 01 4f
+Elster 480.092b.0009: WAERMEERTRAG_WW_TAG_KWH = 9
+send: 0d 00 09 01 00 fa 09 2c 01 8e 01 d5
+recv: 09 00 0d 02 00 fa 09 2c 01 8e 01 d6
+Elster 480.092c.018e: WAERMEERTRAG_WW_SUM_KWH = 398
+send: 0d 00 09 01 00 fa 09 2d 00 1a 01 61
+recv: 09 00 0d 02 00 fa 09 2d 00 1a 01 62
+Elster 480.092d.001a: WAERMEERTRAG_WW_SUM_MWH = 26
+send: 0d 00 09 01 00 fa 09 27 02 fa 02 3d
+recv: 09 00 0d 02 00 fa 09 27 02 fa 02 3e
+Elster 480.0927.02fa: WAERMEERTRAG_2WE_HEIZ_TAG_KWH = 762
+send: 0d 00 09 01 00 fa 09 28 00 03 01 45
+recv: 09 00 0d 02 00 fa 09 28 00 03 01 46
+Elster 480.0928.0003: WAERMEERTRAG_2WE_HEIZ_SUM_KWH = 3
+send: 0d 00 09 01 00 fa 09 29 00 00 01 43
+recv: 09 00 0d 02 00 fa 09 29 00 00 01 44
+Elster 480.0929.0000: WAERMEERTRAG_2WE_HEIZ_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 09 23 00 24 01 61
+recv: 09 00 0d 02 00 fa 09 23 00 24 01 62
+Elster 480.0923.0024: WAERMEERTRAG_2WE_WW_TAG_KWH = 36
+send: 0d 00 09 01 00 fa 09 24 00 01 01 3f
+recv: 09 00 0d 02 00 fa 09 24 00 01 01 40
+Elster 480.0924.0001: WAERMEERTRAG_2WE_WW_SUM_KWH = 1
+send: 0d 00 09 01 00 fa 09 25 00 00 01 3f
+recv: 09 00 0d 02 00 fa 09 25 00 00 01 40
+Elster 480.0925.0000: WAERMEERTRAG_2WE_WW_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 09 1e 00 34 01 6c
+recv: 09 00 0d 02 00 fa 09 1e 00 34 01 6d
+Elster 480.091e.0034: EL_AUFNAHMELEISTUNG_HEIZ_TAG_WH = 52
+send: 0d 00 09 01 00 fa 09 1f 00 0b 01 44
+recv: 09 00 0d 02 00 fa 09 1f 00 0b 01 45
+Elster 480.091f.000b: EL_AUFNAHMELEISTUNG_HEIZ_TAG_KWH = 11
+send: 0d 00 09 01 00 fa 09 20 00 dc 02 16
+recv: 09 00 0d 02 00 fa 09 20 00 dc 02 17
+Elster 480.0920.00dc: EL_AUFNAHMELEISTUNG_HEIZ_SUM_KWH = 220
+send: 0d 00 09 01 00 fa 09 21 00 13 01 4e
+recv: 09 00 0d 02 00 fa 09 21 00 13 01 4f
+Elster 480.0921.0013: EL_AUFNAHMELEISTUNG_HEIZ_SUM_MWH = 19
+send: 0d 00 09 01 00 fa 09 1a 01 38 01 6d
+recv: 09 00 0d 02 00 fa 09 1a 01 38 01 6e
+Elster 480.091a.0138: EL_AUFNAHMELEISTUNG_WW_TAG_WH = 312
+send: 0d 00 09 01 00 fa 09 1b 00 24 01 59
+recv: 09 00 0d 02 00 fa 09 1b 00 24 01 5a
+Elster 480.091b.0024: EL_AUFNAHMELEISTUNG_WW_TAG_KWH = 36
+send: 0d 00 09 01 00 fa 09 1c 00 01 01 37
+recv: 09 00 0d 02 00 fa 09 1c 00 01 01 38
+Elster 480.091c.0001: EL_AUFNAHMELEISTUNG_WW_SUM_KWH = 1
+send: 0d 00 09 01 00 fa 09 1d 00 00 01 37
+recv: 09 00 0d 02 00 fa 09 1d 00 00 01 38
+Elster 480.091d.0000: EL_AUFNAHMELEISTUNG_WW_SUM_MWH = 0
+send: 0d 00 09 01 00 fa 02 59 00 23 01 8f
+recv: 09 00 0d 02 00 fa 02 59 00 23 01 90
+Elster 480.0259.0023: LAUFZEIT_DHC1 = 35
+send: 0d 00 09 01 00 fa 02 5a 00 17 01 84
+recv: 09 00 0d 02 00 fa 02 5a 00 17 01 85
+Elster 480.025a.0017: LAUFZEIT_DHC2 = 23
+send: 0d 00 09 01 00 fa 08 05 00 f7 02 15
+recv: 09 00 0d 02 00 fa 08 05 00 f7 02 16
+Elster 480.0805.00f7: LZ_DHC12 = 247
+send: 0d 00 09 01 00 fa 07 fc 1e 93 02 c5
+recv: 09 00 0d 02 00 fa 07 fc 1e 93 02 c6
+Elster 480.07fc.1e93: LZ_VERD_1_HEIZBETRIEB = 7.827
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 0c 01 02 fa 00 52 00 00 01 68
+recv: 0c 02 0d 02 00 fa 00 52 01 00 01 6a
+Elster 602.0052.0100: BRENNER = 1
+send: 0d 00 0c 01 02 fa 00 57 00 00 01 6d
+recv: 0c 02 0d 02 00 fa 00 57 00 00 01 6e
+Elster 602.0057.0000: MISCHER_AUF = 0
+send: 0d 00 0c 01 02 fa 00 56 00 00 01 6c
+recv: 0c 02 0d 02 00 fa 00 56 00 00 01 6d
+Elster 602.0056.0000: DCF = 0
+send: 0d 00 09 01 00 fa fd ab 00 00 02 b9
+recv: 09 00 0d 02 00 fa fd ab 01 00 02 bb
+Elster 480.fdab.0100: ZWEITER_WE_STATUS = 1
+send: 0d 00 03 01 00 fa 0a 20 00 00 01 35
+recv: 03 00 0d 02 00 fa 0a 20 01 6c 01 a3
+Elster 180.0a20.016c: SAMMEL_RELAISSTATUS = 364
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 0c 01 02 fa 00 52 01 00 01 69
+recv: 0c 02 0d 02 00 fa 00 52 01 00 01 6a
+Elster 602.0052.0100: BRENNER = 1
+send: 0d 00 0c 01 02 fa 00 57 00 00 01 6d
+recv: 0c 02 0d 02 00 fa 00 57 00 00 01 6e
+Elster 602.0057.0000: MISCHER_AUF = 0
+send: 0d 00 0c 01 02 fa 00 56 00 00 01 6c
+recv: 0c 02 0d 02 00 fa 00 56 00 00 01 6d
+Elster 602.0056.0000: DCF = 0
+send: 0d 00 09 01 00 fa fd ab 01 00 02 ba
+recv: 09 00 0d 02 00 fa fd ab 01 00 02 bb
+Elster 480.fdab.0100: ZWEITER_WE_STATUS = 1
+send: 0d 00 03 01 00 fa 0a 20 01 6c 01 a2
+recv: 03 00 0d 02 00 fa 0a 20 01 6c 01 a3
+Elster 180.0a20.016c: SAMMEL_RELAISSTATUS = 364
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 0c 01 02 fa 00 52 01 00 01 69
+recv: 0c 02 0d 02 00 fa 00 52 01 00 01 6a
+Elster 602.0052.0100: BRENNER = 1
+send: 0d 00 0c 01 02 fa 00 57 00 00 01 6d
+recv: 0c 02 0d 02 00 fa 00 57 00 00 01 6e
+Elster 602.0057.0000: MISCHER_AUF = 0
+send: 0d 00 0c 01 02 fa 00 56 00 00 01 6c
+recv: 0c 02 0d 02 00 fa 00 56 00 00 01 6d
+Elster 602.0056.0000: DCF = 0
+send: 0d 00 09 01 00 fa fd ab 01 00 02 ba
+recv: 09 00 0d 02 00 fa fd ab 01 00 02 bb
+Elster 480.fdab.0100: ZWEITER_WE_STATUS = 1
+send: 0d 00 03 01 00 fa 0a 20 01 6c 01 a2
+recv: 03 00 0d 02 00 fa 0a 20 01 6c 01 a3
+Elster 180.0a20.016c: SAMMEL_RELAISSTATUS = 364
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 0c 01 02 fa 00 52 01 00 01 69
+recv: 0c 02 0d 02 00 fa 00 52 01 00 01 6a
+Elster 602.0052.0100: BRENNER = 1
+send: 0d 00 0c 01 02 fa 00 57 00 00 01 6d
+recv: 0c 02 0d 02 00 fa 00 57 00 00 01 6e
+Elster 602.0057.0000: MISCHER_AUF = 0
+send: 0d 00 0c 01 02 fa 00 56 00 00 01 6c
+recv: 0c 02 0d 02 00 fa 00 56 00 00 01 6d
+Elster 602.0056.0000: DCF = 0
+send: 0d 00 09 01 00 fa fd ab 01 00 02 ba
+recv: 09 00 0d 02 00 fa fd ab 01 00 02 bb
+Elster 480.fdab.0100: ZWEITER_WE_STATUS = 1
+send: 0d 00 03 01 00 fa 0a 20 01 6c 01 a2
+recv: 03 00 0d 02 00 fa 0a 20 01 6c 01 a3
+Elster 180.0a20.016c: SAMMEL_RELAISSTATUS = 364
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 01 c0 a0 00 02 6c
+recv: 03 00 0d 02 00 fa 01 c0 a0 00 02 6d
+Elster 180.01c0.a000: FESTWERT = 160
+send: 0d 00 03 01 00 fa 01 b0 ff ce 03 89
+recv: 03 00 0d 02 00 fa 01 b0 ff ce 03 8a
+Elster 180.01b0.ffce: QUELLENSOLLTEMPERATUR = -5.0
+send: 0d 00 03 01 00 fa fd b4 01 00 02 bd
+recv: 03 00 0d 02 00 fa fd b4 01 00 02 be
+Elster 180.fdb4.0100: SOMMERBETRIEB = on
+send: 0d 00 03 01 00 fa fd af 00 00 02 b7
+recv: 03 00 0d 02 00 fa fd af 00 00 02 b8
+Elster 180.fdaf.0000: DAUERLAUF_PUFFERLADEPUMPE = 0
+send: 0d 00 03 01 00 fa fd b2 00 00 02 ba
+recv: 03 00 0d 02 00 fa fd b2 00 00 02 bb
+Elster 180.fdb2.0000: PUMPENZYKLEN = 0
+send: 0d 00 03 01 00 fa 01 1a 00 00 01 26
+recv: 03 00 0d 02 00 fa 01 1a 00 00 01 27
+Elster 180.011a.0000: ESTRICHFUNKTION = 0
+send: 0d 00 03 01 00 fa fd b1 14 00 02 cd
+recv: 03 00 0d 02 00 fa fd b1 14 00 02 ce
+Elster 180.fdb1.1400: STILLSTANDZEIT = 20
+send: 0d 00 03 01 00 fa fd b0 14 00 02 cc
+recv: 03 00 0d 02 00 fa fd b0 0a 00 02 c3
+Elster 180.fdb0.0a00: SCHALTWERKDYNAMIKZEIT = 10
+send: 0d 00 03 01 00 fa fd b3 01 00 02 bc
+recv: 03 00 0d 02 00 fa fd b3 01 00 02 bd
+Elster 180.fdb3.0100: GEBAEUDEART = 1
+send: 0d 00 03 01 00 fa 01 bf 00 c8 02 93
+recv: 03 00 0d 02 00 fa 01 bf 00 c8 02 94
+Elster 180.01bf.00c8: SW_AUSSENTEMP = 20.0
+send: 0d 00 03 01 00 fa fd ae 00 00 02 b6
+recv: 03 00 0d 02 00 fa fd ae 00 00 02 b7
+Elster 180.fdae.0000: WP_STATUS = 0
+send: 0d 00 03 01 00 fa 02 87 00 00 01 94
+recv: 03 00 0d 02 00 fa 02 87 00 00 01 95
+Elster 180.0287.0000: KUEHLMODE = 0
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 01 c0 a0 00 02 6c
+recv: 03 00 0d 02 00 fa 01 c0 a0 00 02 6d
+Elster 180.01c0.a000: FESTWERT = 160
+send: 0d 00 03 01 00 fa 01 b0 ff ce 03 89
+recv: 03 00 0d 02 00 fa 01 b0 ff ce 03 8a
+Elster 180.01b0.ffce: QUELLENSOLLTEMPERATUR = -5.0
+send: 0d 00 03 01 00 fa fd b4 01 00 02 bd
+recv: 03 00 0d 02 00 fa fd b4 01 00 02 be
+Elster 180.fdb4.0100: SOMMERBETRIEB = on
+send: 0d 00 03 01 00 fa fd af 00 00 02 b7
+recv: 03 00 0d 02 00 fa fd af 00 00 02 b8
+Elster 180.fdaf.0000: DAUERLAUF_PUFFERLADEPUMPE = 0
+send: 0d 00 03 01 00 fa fd b2 00 00 02 ba
+recv: 03 00 0d 02 00 fa fd b2 00 00 02 bb
+Elster 180.fdb2.0000: PUMPENZYKLEN = 0
+send: 0d 00 03 01 00 fa 01 1a 00 00 01 26
+recv: 03 00 0d 02 00 fa 01 1a 00 00 01 27
+Elster 180.011a.0000: ESTRICHFUNKTION = 0
+send: 0d 00 03 01 00 fa fd b1 14 00 02 cd
+recv: 03 00 0d 02 00 fa fd b1 14 00 02 ce
+Elster 180.fdb1.1400: STILLSTANDZEIT = 20
+send: 0d 00 03 01 00 fa fd b0 0a 00 02 c2
+recv: 03 00 0d 02 00 fa fd b0 0a 00 02 c3
+Elster 180.fdb0.0a00: SCHALTWERKDYNAMIKZEIT = 10
+send: 0d 00 03 01 00 fa fd b3 01 00 02 bc
+recv: 03 00 0d 02 00 fa fd b3 01 00 02 bd
+Elster 180.fdb3.0100: GEBAEUDEART = 1
+send: 0d 00 03 01 00 fa 01 bf 00 c8 02 93
+recv: 03 00 0d 02 00 fa 01 bf 00 c8 02 94
+Elster 180.01bf.00c8: SW_AUSSENTEMP = 20.0
+send: 0d 00 03 01 00 fa fd ae 00 00 02 b6
+recv: 03 00 0d 02 00 fa fd ae 00 00 02 b7
+Elster 180.fdae.0000: WP_STATUS = 0
+send: 0d 00 03 01 00 fa 02 87 00 00 01 94
+recv: 03 00 0d 02 00 fa 02 87 00 00 01 95
+Elster 180.0287.0000: KUEHLMODE = 0
+send: 0d 00 06 01 01 fa 00 11 80 00 01 a0
+recv: 06 01 0d 02 00 fa 00 11 80 00 01 a1
+Elster 301.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 06 01 02 fa 00 11 80 00 01 a1
+recv: 06 02 0d 02 00 fa 00 11 80 00 01 a2
+Elster 302.0011.8000: RAUMISTTEMP = not available
+send: 0d 00 03 01 00 fa 01 c0 a0 00 02 6c
+recv: 03 00 0d 02 00 fa 01 c0 a0 00 02 6d
+Elster 180.01c0.a000: FESTWERT = 160
+send: 0d 00 03 01 00 fa 01 b0 ff ce 03 89
+recv: 03 00 0d 02 00 fa 01 b0 ff ce 03 8a
+Elster 180.01b0.ffce: QUELLENSOLLTEMPERATUR = -5.0
+send: 0d 00 03 01 00 fa fd b4 01 00 02 bd
+recv: 03 00 0d 02 00 fa fd b4 01 00 02 be
+Elster 180.fdb4.0100: SOMMERBETRIEB = on
+send: 0d 00 03 01 00 fa fd af 00 00 02 b7
+recv: 03 00 0d 02 00 fa fd af 00 00 02 b8
+Elster 180.fdaf.0000: DAUERLAUF_PUFFERLADEPUMPE = 0
+send: 0d 00 03 01 00 fa fd b2 00 00 02 ba
+recv: 03 00 0d 02 00 fa fd b2 00 00 02 bb
+Elster 180.fdb2.0000: PUMPENZYKLEN = 0
+send: 0d 00 03 01 00 fa 01 1a 00 00 01 26
+recv: 03 00 0d 02 00 fa 01 1a 00 00 01 27
+Elster 180.011a.0000: ESTRICHFUNKTION = 0
+send: 0d 00 03 01 00 fa fd b1 14 00 02 cd
+recv: 03 00 0d 02 00 fa fd b1 14 00 02 ce
+Elster 180.fdb1.1400: STILLSTANDZEIT = 20
+send: 0d 00 06 01 01 fa 00 28 01 f4 02 2c
+recv: 06 01 0d 02 00 fa 00 28 01 f4 02 2d
+Elster 301.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 01 e8 02 58 02 4e
+recv: 03 00 0d 02 00 fa 01 e8 02 58 02 4f
+Elster 180.01e8.0258: MAX_HEIZUNG_TEMP = 60.0
+send: 0d 00 03 01 00 fa 01 ac ff 6a 03 21
+recv: 03 00 0d 02 00 fa 01 ac ff 6a 03 22
+Elster 180.01ac.ff6a: BIVALENTPARALLELTEMPERATUR_HZG = -15.0
+send: 0d 00 03 01 00 fa 01 ad ff 42 02 fa
+recv: 03 00 0d 02 00 fa 01 ad ff 42 02 fb
+Elster 180.01ad.ff42: BIVALENTPARALLELTEMPERATUR_WW = -19.0
+send: 0d 00 03 01 00 fa 01 ae a0 00 02 5a
+recv: 03 00 0d 02 00 fa 01 ae a0 00 02 5b
+Elster 180.01ae.a000: BIVALENZALTERNATIVTEMPERATUR_HZG = -2457.6
+send: 0d 00 03 01 00 fa 01 af a0 00 02 5b
+recv: 03 00 0d 02 00 fa 01 af a0 00 02 5c
+Elster 180.01af.a000: BIVALENZALTERNATIVTEMPERATUR_WW = -2457.6
+send: 0d 00 03 01 00 fa 0a 00 00 32 01 47
+recv: 03 00 0d 02 00 fa 0a 00 00 32 01 48
+Elster 180.0a00.0032: AUSSEN_FROSTTEMP = 5.0
+send: 0d 00 03 01 00 fa 00 22 00 1e 01 4b
+recv: 03 00 0d 02 00 fa 00 22 00 1e 01 4c
+Elster 180.0022.001e: HYSTERESEZEIT = 3.0
+send: 0d 00 0c 01 02 fa 00 28 01 f4 02 33
+recv: 0c 02 0d 02 00 fa 00 28 01 f4 02 34
+Elster 602.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 0c 01 02 fa 00 2b 64 00 01 a5
+recv: 0c 02 0d 02 00 fa 00 2b 64 00 01 a6
+Elster 602.002b.6400: TN = 100
+send: 0d 00 03 01 00 fa 02 63 00 00 01 70
+recv: 03 00 0d 02 00 fa 02 63 00 1e 01 8f
+Elster 180.0263.001e: WWKORREKTUR = 30
+send: 0d 00 03 01 00 fa 01 01 00 00 01 0d
+recv: 03 00 0d 02 00 fa 01 01 00 00 01 0e
+Elster 180.0101.0000: ANTILEGIONELLEN = 0
+send: 0d 00 03 01 00 fa 02 7e 00 00 01 8b
+recv: 03 00 0d 02 00 fa 02 7e 00 00 01 8c
+Elster 180.027e.0000: WW_ECO = off
+send: 0d 00 06 01 01 fa 00 28 01 f4 02 2c
+recv: 06 01 0d 02 00 fa 00 28 01 f4 02 2d
+Elster 301.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 01 e8 02 58 02 4e
+recv: 03 00 0d 02 00 fa 01 e8 02 58 02 4f
+Elster 180.01e8.0258: MAX_HEIZUNG_TEMP = 60.0
+send: 0d 00 03 01 00 fa 01 ac ff 6a 03 21
+recv: 03 00 0d 02 00 fa 01 ac ff 6a 03 22
+Elster 180.01ac.ff6a: BIVALENTPARALLELTEMPERATUR_HZG = -15.0
+send: 0d 00 03 01 00 fa 01 ad ff 42 02 fa
+recv: 03 00 0d 02 00 fa 01 ad ff 42 02 fb
+Elster 180.01ad.ff42: BIVALENTPARALLELTEMPERATUR_WW = -19.0
+send: 0d 00 03 01 00 fa 01 ae a0 00 02 5a
+recv: 03 00 0d 02 00 fa 01 ae a0 00 02 5b
+Elster 180.01ae.a000: BIVALENZALTERNATIVTEMPERATUR_HZG = -2457.6
+send: 0d 00 03 01 00 fa 01 af a0 00 02 5b
+recv: 03 00 0d 02 00 fa 01 af a0 00 02 5c
+Elster 180.01af.a000: BIVALENZALTERNATIVTEMPERATUR_WW = -2457.6
+send: 0d 00 03 01 00 fa 0a 00 00 32 01 47
+recv: 03 00 0d 02 00 fa 0a 00 00 32 01 48
+Elster 180.0a00.0032: AUSSEN_FROSTTEMP = 5.0
+send: 0d 00 03 01 00 fa 00 22 00 1e 01 4b
+recv: 03 00 0d 02 00 fa 00 22 00 1e 01 4c
+Elster 180.0022.001e: HYSTERESEZEIT = 3.0
+send: 0d 00 0c 01 02 fa 00 28 01 f4 02 33
+recv: 0c 02 0d 02 00 fa 00 28 01 f4 02 34
+Elster 602.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 0c 01 02 fa 00 2b 64 00 01 a5
+recv: 0c 02 0d 02 00 fa 00 2b 64 00 01 a6
+Elster 602.002b.6400: TN = 100
+send: 0d 00 03 01 00 fa 02 63 00 1e 01 8e
+recv: 03 00 0d 02 00 fa 02 63 00 1e 01 8f
+Elster 180.0263.001e: WWKORREKTUR = 30
+send: 0d 00 03 01 00 fa 01 01 00 00 01 0d
+recv: 03 00 0d 02 00 fa 01 01 00 00 01 0e
+Elster 180.0101.0000: ANTILEGIONELLEN = 0
+send: 0d 00 03 01 00 fa 02 7e 00 00 01 8b
+recv: 03 00 0d 02 00 fa 02 7e 00 00 01 8c
+Elster 180.027e.0000: WW_ECO = off
+send: 0d 00 06 01 01 fa 00 28 01 f4 02 2c
+recv: 06 01 0d 02 00 fa 00 28 01 f4 02 2d
+Elster 301.0028.01f4: MAX_TEMP_KESSEL = 50.0
+send: 0d 00 03 01 00 fa 00 0e 01 e1 01 fb
+recv: 03 00 0d 02 00 fa 00 0e 01 e1 01 fc
+Elster 180.000e.01e1: SPEICHERISTTEMP = 48.1
+send: 0d 00 03 01 00 fa 01 e8 02 58 02 4e
+recv: 03 00 0d 02 00 fa 01 e8 02 58 02 4f
+Elster 180.01e8.0258: MAX_HEIZUNG_TEMP = 60.0
+send: 0d 00 09 01 00 fb 00 00 00 00 01 12
+recv: 09 00 0d 02 00 fb 80 00 00 00 01 93
+Elster 480.00fb.8000: SYSTEM_RESET = not available
+send: 0d 00 03 01 00 fa 0b 00 00 00 01 16
+recv: 03 00 0d 02 00 fa 0b 00 00 1f 01 36
+Elster 180.0b00.001f: FEHLERFELD_0 = 31
+send: 0d 00 03 01 00 fa 0b 01 00 00 01 17
+recv: 03 00 0d 02 00 fa 0b 01 00 02 01 1a
+Elster 180.0b01.0002: FEHLERFELD_1 = 2
+send: 0d 00 03 01 00 fa 0b 02 00 00 01 18
+recv: 03 00 0d 02 00 fa 0b 02 00 1b 01 34
+Elster 180.0b02.001b: FEHLERFELD_2 = 27
+send: 0d 00 03 01 00 fa 0b 03 00 00 01 19
+recv: 03 00 0d 02 00 fa 0b 03 00 0b 01 25
+Elster 180.0b03.000b: FEHLERFELD_3 = 11
+send: 0d 00 03 01 00 fa 0b 04 00 00 01 1a
+recv: 03 00 0d 02 00 fa 0b 04 00 10 01 2b
+Elster 180.0b04.0010: FEHLERFELD_4 = 16
+send: 0d 00 03 01 00 fa 0b 05 00 00 01 1b
+recv: 03 00 0d 02 00 fa 0b 05 00 12 01 2e
+Elster 180.0b05.0012: FEHLERFELD_5 = 19
+send: 0d 00 03 01 00 fa 0b 06 00 00 01 1c
+recv: 03 00 0d 02 00 fa 0b 06 00 00 01 1d
+Elster 180.0b06.0000: FEHLERFELD_6 = ERR 0
+send: 0d 00 03 01 00 fa 0b 07 00 00 01 1d
+recv: 03 00 0d 02 00 fa 0b 07 00 14 01 32
+Elster 180.0b07.0014: FEHLERFELD_7 = 20
+send: 0d 00 03 01 00 fa 0b 08 00 00 01 1e
+recv: 03 00 0d 02 00 fa 0b 08 00 03 01 22
+Elster 180.0b08.0003: FEHLERFELD_8 = 3
+send: 0d 00 03 01 00 fa 0b 09 00 00 01 1f
+recv: 03 00 0d 02 00 fa 0b 09 00 1e 01 3e
+Elster 180.0b09.001e: FEHLERFELD_9 = 30
+send: 0d 00 03 01 00 fa 0b 0a 00 00 01 20
+recv: 03 00 0d 02 00 fa 0b 0a 00 0b 01 2c
+Elster 180.0b0a.000b: FEHLERFELD_10 = 11
+send: 0d 00 03 01 00 fa 0b 0b 00 00 01 21
+recv: 03 00 0d 02 00 fa 0b 0b 00 10 01 32
+Elster 180.0b0b.0010: FEHLERFELD_11 = 16
+send: 0d 00 03 01 00 fa 0b 0c 00 00 01 22
+recv: 03 00 0d 02 00 fa 0b 0c 00 12 01 35
+Elster 180.0b0c.0012: FEHLERFELD_12 = 19
+send: 0d 00 03 01 00 fa 0b 0d 00 00 01 23
+recv: 03 00 0d 02 00 fa 0b 0d 00 00 01 24
+Elster 180.0b0d.0000: FEHLERFELD_13 = ERR 0
+send: 0d 00 03 01 00 fa 0b 0e 00 00 01 24
+recv: 03 00 0d 02 00 fa 0b 0e 00 1c 01 41
+Elster 180.0b0e.001c: FEHLERFELD_14 = 28
+send: 0d 00 03 01 00 fa 0b 0f 00 00 01 25
+recv: 03 00 0d 02 00 fa 0b 0f 00 03 01 29
+Elster 180.0b0f.0003: FEHLERFELD_15 = 3
+send: 0d 00 03 01 00 fa 0b 10 00 00 01 26
+recv: 03 00 0d 02 00 fa 0b 10 00 1d 01 44
+Elster 180.0b10.001d: FEHLERFELD_16 = 29
+send: 0d 00 03 01 00 fa 0b 11 00 00 01 27
+recv: 03 00 0d 02 00 fa 0b 11 00 0c 01 34
+Elster 180.0b11.000c: FEHLERFELD_17 = 12
+send: 0d 00 03 01 00 fa 0b 12 00 00 01 28
+recv: 03 00 0d 02 00 fa 0b 12 00 10 01 39
+Elster 180.0b12.0010: FEHLERFELD_18 = 16
+send: 0d 00 03 01 00 fa 0b 13 00 00 01 29
+recv: 03 00 0d 02 00 fa 0b 13 00 12 01 3c
+Elster 180.0b13.0012: FEHLERFELD_19 = 19
+send: 0d 00 03 01 00 fa 0b 14 00 00 01 2a
+recv: 03 00 0d 02 00 fa 0b 14 00 00 01 2b
+Elster 180.0b14.0000: FEHLERFELD_20 = ERR 0
+send: 0d 00 03 01 00 fa 0b 15 00 00 01 2b
+recv: 03 00 0d 02 00 fa 0b 15 00 00 01 2c
+Elster 180.0b15.0000: FEHLERFELD_21 = 0
+send: 0d 00 03 01 00 fa 0b 16 00 00 01 2c
+recv: 03 00 0d 02 00 fa 0b 16 00 00 01 2d
+Elster 180.0b16.0000: FEHLERFELD_22 = 0
+send: 0d 00 03 01 00 fa 0b 17 00 00 01 2d
+recv: 03 00 0d 02 00 fa 0b 17 00 00 01 2e
+Elster 180.0b17.0000: FEHLERFELD_23 = 0
+send: 0d 00 03 01 00 fa 0b 18 00 00 01 2e
+recv: 03 00 0d 02 00 fa 0b 18 00 00 01 2f
+Elster 180.0b18.0000: FEHLERFELD_24 = 0
+send: 0d 00 03 01 00 fa 0b 19 00 00 01 2f
+recv: 03 00 0d 02 00 fa 0b 19 00 00 01 30
+Elster 180.0b19.0000: FEHLERFELD_25 = 0
+send: 0d 00 03 01 00 fa 0b 1a 00 00 01 30
+recv: 03 00 0d 02 00 fa 0b 1a 00 00 01 31
+Elster 180.0b1a.0000: FEHLERFELD_26 = 1
+send: 0d 00 03 01 00 fa 0b 1b 00 00 01 31
+recv: 03 00 0d 02 00 fa 0b 1b 00 00 01 32
+Elster 180.0b1b.0000: FEHLERFELD_27 = ERR 0
+send: 0d 00 03 01 00 fa 0b 1c 00 00 01 32
+recv: 03 00 0d 02 00 fa 0b 1c 00 00 01 33
+Elster 180.0b1c.0000: FEHLERFELD_28 = 0
+send: 0d 00 03 01 00 fa 0b 1d 00 00 01 33
+recv: 03 00 0d 02 00 fa 0b 1d 00 00 01 34
+Elster 180.0b1d.0000: FEHLERFELD_29 = 0
+send: 0d 00 03 01 00 fa 0b 1e 00 00 01 34
+recv: 03 00 0d 02 00 fa 0b 1e 00 00 01 35
+Elster 180.0b1e.0000: FEHLERFELD_30 = 0
+send: 0d 00 03 01 00 fa 0b 1f 00 00 01 35
+recv: 03 00 0d 02 00 fa 0b 1f 00 00 01 36
+Elster 180.0b1f.0000: FEHLERFELD_31 = 0
+send: 0d 00 03 01 00 fa 0b 20 00 00 01 36
+recv: 03 00 0d 02 00 fa 0b 20 00 00 01 37
+Elster 180.0b20.0000: FEHLERFELD_32 = 0
+send: 0d 00 03 01 00 fa 0b 21 00 00 01 37
+recv: 03 00 0d 02 00 fa 0b 21 00 00 01 38
+Elster 180.0b21.0000: FEHLERFELD_33 = 1
+send: 0d 00 03 01 00 fa 0b 22 00 00 01 38
+recv: 03 00 0d 02 00 fa 0b 22 00 00 01 39
+Elster 180.0b22.0000: FEHLERFELD_34 = ERR 0
+send: 0d 00 03 01 00 fa 0b 23 00 00 01 39
+recv: 03 00 0d 02 00 fa 0b 23 00 00 01 3a
+Elster 180.0b23.0000: FEHLERFELD_35 = 0
+send: 0d 00 03 01 00 fa 0b 24 00 00 01 3a
+recv: 03 00 0d 02 00 fa 0b 24 00 00 01 3b
+Elster 180.0b24.0000: FEHLERFELD_36 = 0
+send: 0d 00 03 01 00 fa 0b 25 00 00 01 3b
+recv: 03 00 0d 02 00 fa 0b 25 00 00 01 3c
+Elster 180.0b25.0000: FEHLERFELD_37 = 0
+send: 0d 00 03 01 00 fa 0b 26 00 00 01 3c
+recv: 03 00 0d 02 00 fa 0b 26 00 00 01 3d
+Elster 180.0b26.0000: FEHLERFELD_38 = 0
+send: 0d 00 03 01 00 fa 0b 27 00 00 01 3d
+recv: 03 00 0d 02 00 fa 0b 27 00 00 01 3e
+Elster 180.0b27.0000: FEHLERFELD_39 = 0
+send: 0d 00 03 01 00 fa 0b 28 00 00 01 3e
+recv: 03 00 0d 02 00 fa 0b 28 00 00 01 3f
+Elster 180.0b28.0000: FEHLERFELD_40 = 1
+send: 0d 00 03 01 00 fa 0b 29 00 00 01 3f
+recv: 03 00 0d 02 00 fa 0b 29 00 00 01 40
+Elster 180.0b29.0000: FEHLERFELD_41 = ERR 0
+send: 0d 00 03 01 00 fa 0b 2a 00 00 01 40
+recv: 03 00 0d 02 00 fa 0b 2a 00 00 01 41
+Elster 180.0b2a.0000: FEHLERFELD_42 = 0
+send: 0d 00 03 01 00 fa 0b 2b 00 00 01 41
+recv: 03 00 0d 02 00 fa 0b 2b 00 00 01 42
+Elster 180.0b2b.0000: FEHLERFELD_43 = 0
+send: 0d 00 03 01 00 fa 0b 2c 00 00 01 42
+recv: 03 00 0d 02 00 fa 0b 2c 00 00 01 43
+Elster 180.0b2c.0000: FEHLERFELD_44 = 0
+send: 0d 00 03 01 00 fa 0b 2d 00 00 01 43
+recv: 03 00 0d 02 00 fa 0b 2d 00 00 01 44
+Elster 180.0b2d.0000: FEHLERFELD_45 = 0
+send: 0d 00 03 01 00 fa 0b 2e 00 00 01 44
+recv: 03 00 0d 02 00 fa 0b 2e 00 00 01 45
+Elster 180.0b2e.0000: FEHLERFELD_46 = 0
+send: 0d 00 03 01 00 fa 0b 2f 00 00 01 45
+recv: 03 00 0d 02 00 fa 0b 2f 00 00 01 46
+Elster 180.0b2f.0000: FEHLERFELD_47 = 1
+send: 0d 00 03 01 00 fa 0b 30 00 00 01 46
+recv: 03 00 0d 02 00 fa 0b 30 00 00 01 47
+Elster 180.0b30.0000: FEHLERFELD_48 = ERR 0
+send: 0d 00 03 01 00 fa 0b 31 00 00 01 47
+recv: 03 00 0d 02 00 fa 0b 31 00 00 01 48
+Elster 180.0b31.0000: FEHLERFELD_49 = 0
+send: 0d 00 03 01 00 fa 0b 32 00 00 01 48
+recv: 03 00 0d 02 00 fa 0b 32 00 00 01 49
+Elster 180.0b32.0000: FEHLERFELD_50 = 0
+send: 0d 00 03 01 00 fa 0b 33 00 00 01 49
+recv: 03 00 0d 02 00 fa 0b 33 00 00 01 4a
+Elster 180.0b33.0000: FEHLERFELD_51 = 0
+send: 0d 00 03 01 00 fa 0b 34 00 00 01 4a
+recv: 03 00 0d 02 00 fa 0b 34 00 00 01 4b
+Elster 180.0b34.0000: FEHLERFELD_52 = 0
+send: 0d 00 03 01 00 fa 0b 35 00 00 01 4b
+recv: 03 00 0d 02 00 fa 0b 35 00 00 01 4c
+Elster 180.0b35.0000: FEHLERFELD_53 = 0
+send: 0d 00 03 01 00 fa 0b 36 00 00 01 4c
+recv: 03 00 0d 02 00 fa 0b 36 00 00 01 4d
+Elster 180.0b36.0000: FEHLERFELD_54 = 1
+send: 0d 00 03 01 00 fa 0b 37 00 00 01 4d
+recv: 03 00 0d 02 00 fa 0b 37 00 00 01 4e
+Elster 180.0b37.0000: FEHLERFELD_55 = ERR 0
+send: 0d 00 03 01 00 fa 0b 38 00 00 01 4e
+recv: 03 00 0d 02 00 fa 0b 38 00 00 01 4f
+Elster 180.0b38.0000: FEHLERFELD_56 = 0
+send: 0d 00 03 01 00 fa 0b 39 00 00 01 4f
+recv: 03 00 0d 02 00 fa 0b 39 00 00 01 50
+Elster 180.0b39.0000: FEHLERFELD_57 = 0
+send: 0d 00 03 01 00 fa 0b 3a 00 00 01 50
+recv: 03 00 0d 02 00 fa 0b 3a 00 00 01 51
+Elster 180.0b3a.0000: FEHLERFELD_58 = 0
+send: 0d 00 03 01 00 fa 0b 3b 00 00 01 51
+recv: 03 00 0d 02 00 fa 0b 3b 00 00 01 52
+Elster 180.0b3b.0000: FEHLERFELD_59 = 0
+send: 0d 00 03 01 00 fa 0b 3c 00 00 01 52
+recv: 03 00 0d 02 00 fa 0b 3c 00 00 01 53
+Elster 180.0b3c.0000: FEHLERFELD_60 = 0
+send: 0d 00 03 01 00 fa 0b 3d 00 00 01 53
+recv: 03 00 0d 02 00 fa 0b 3d 00 00 01 54
+Elster 180.0b3d.0000: FEHLERFELD_61 = 1
+send: 0d 00 03 01 00 fa 0b 3e 00 00 01 54
+recv: 03 00 0d 02 00 fa 0b 3e 00 00 01 55
+Elster 180.0b3e.0000: FEHLERFELD_62 = ERR 0
+send: 0d 00 03 01 00 fa 0b 3f 00 00 01 55
+recv: 03 00 0d 02 00 fa 0b 3f 00 00 01 56
+Elster 180.0b3f.0000: FEHLERFELD_63 = 0
+send: 0d 00 03 01 00 fa 0b 40 00 00 01 56
+recv: 03 00 0d 02 00 fa 0b 40 00 00 01 57
+Elster 180.0b40.0000: FEHLERFELD_64 = 0
+send: 0d 00 03 01 00 fa 0b 41 00 00 01 57
+recv: 03 00 0d 02 00 fa 0b 41 00 00 01 58
+Elster 180.0b41.0000: FEHLERFELD_65 = 0
+send: 0d 00 03 01 00 fa 0b 42 00 00 01 58
+recv: 03 00 0d 02 00 fa 0b 42 00 00 01 59
+Elster 180.0b42.0000: FEHLERFELD_66 = 0
+send: 0d 00 03 01 00 fa 0b 43 00 00 01 59
+recv: 03 00 0d 02 00 fa 0b 43 00 00 01 5a
+Elster 180.0b43.0000: FEHLERFELD_67 = 0
+send: 0d 00 03 01 00 fa 0b 44 00 00 01 5a
+recv: 03 00 0d 02 00 fa 0b 44 00 00 01 5b
+Elster 180.0b44.0000: FEHLERFELD_68 = 1
+send: 0d 00 03 01 00 fa 0b 45 00 00 01 5b
+recv: 03 00 0d 02 00 fa 0b 45 00 00 01 5c
+Elster 180.0b45.0000: FEHLERFELD_69 = ERR 0
+send: 0d 00 03 01 00 fa 0b 46 00 00 01 5c
+recv: 03 00 0d 02 00 fa 0b 46 00 00 01 5d
+Elster 180.0b46.0000: FEHLERFELD_70 = 0
+send: 0d 00 03 01 00 fa 0b 47 00 00 01 5d
+recv: 03 00 0d 02 00 fa 0b 47 00 00 01 5e
+Elster 180.0b47.0000: FEHLERFELD_71 = 0
+send: 0d 00 03 01 00 fa 0b 48 00 00 01 5e
+recv: 03 00 0d 02 00 fa 0b 48 00 00 01 5f
+Elster 180.0b48.0000: FEHLERFELD_72 = 0
+send: 0d 00 03 01 00 fa 0b 49 00 00 01 5f
+recv: 03 00 0d 02 00 fa 0b 49 00 00 01 60
+Elster 180.0b49.0000: FEHLERFELD_73 = 0
+send: 0d 00 03 01 00 fa 0b 4a 00 00 01 60
+recv: 03 00 0d 02 00 fa 0b 4a 00 00 01 61
+Elster 180.0b4a.0000: FEHLERFELD_74 = 0
+send: 0d 00 03 01 00 fa 0b 4b 00 00 01 61
+recv: 03 00 0d 02 00 fa 0b 4b 00 00 01 62
+Elster 180.0b4b.0000: FEHLERFELD_75 = 1
+send: 0d 00 03 01 00 fa 0b 4c 00 00 01 62
+recv: 03 00 0d 02 00 fa 0b 4c 00 00 01 63
+Elster 180.0b4c.0000: FEHLERFELD_76 = ERR 0
+send: 0d 00 03 01 00 fa 0b 4d 00 00 01 63
+recv: 03 00 0d 02 00 fa 0b 4d 00 00 01 64
+Elster 180.0b4d.0000: FEHLERFELD_77 = 0
+send: 0d 00 03 01 00 fa 0b 4e 00 00 01 64
+recv: 03 00 0d 02 00 fa 0b 4e 00 00 01 65
+Elster 180.0b4e.0000: FEHLERFELD_78 = 0
+send: 0d 00 03 01 00 fa 0b 4f 00 00 01 65
+recv: 03 00 0d 02 00 fa 0b 4f 00 00 01 66
+Elster 180.0b4f.0000: FEHLERFELD_79 = 0
+send: 0d 00 03 01 00 fa 0b 50 00 00 01 66
+recv: 03 00 0d 02 00 fa 0b 50 00 00 01 67
+Elster 180.0b50.0000: FEHLERFELD_80 = 0
+send: 0d 00 03 01 00 fa 0b 51 00 00 01 67
+recv: 03 00 0d 02 00 fa 0b 51 00 00 01 68
+Elster 180.0b51.0000: FEHLERFELD_81 = 0
+send: 0d 00 03 01 00 fa 0b 52 00 00 01 68
+recv: 03 00 0d 02 00 fa 0b 52 00 00 01 69
+Elster 180.0b52.0000: FEHLERFELD_82 = 1
+send: 0d 00 03 01 00 fa 0b 53 00 00 01 69
+recv: 03 00 0d 02 00 fa 0b 53 00 00 01 6a
+Elster 180.0b53.0000: FEHLERFELD_83 = ERR 0
+send: 0d 00 03 01 00 fa 0b 54 00 00 01 6a
+recv: 03 00 0d 02 00 fa 0b 54 00 00 01 6b
+Elster 180.0b54.0000: FEHLERFELD_84 = 0
+send: 0d 00 03 01 00 fa 0b 55 00 00 01 6b
+recv: 03 00 0d 02 00 fa 0b 55 00 00 01 6c
+Elster 180.0b55.0000: FEHLERFELD_85 = 0
+send: 0d 00 03 01 00 fa 0b 56 00 00 01 6c
+recv: 03 00 0d 02 00 fa 0b 56 00 00 01 6d
+Elster 180.0b56.0000: FEHLERFELD_86 = 0
+send: 0d 00 03 01 00 fa 0b 57 00 00 01 6d
+recv: 03 00 0d 02 00 fa 0b 57 00 00 01 6e
+Elster 180.0b57.0000: FEHLERFELD_87 = 0
+send: 0d 00 03 01 00 fa 0b 58 00 00 01 6e
+recv: 03 00 0d 02 00 fa 0b 58 00 00 01 6f
+Elster 180.0b58.0000: FEHLERFELD_88 = 0
+send: 0d 00 03 01 00 fa 0b 59 00 00 01 6f
+recv: 03 00 0d 02 00 fa 0b 59 00 00 01 70
+Elster 180.0b59.0000: FEHLERFELD_89 = 1
+send: 0d 00 03 01 00 fa 0b 5a 00 00 01 70
+recv: 03 00 0d 02 00 fa 0b 5a 00 00 01 71
+Elster 180.0b5a.0000: FEHLERFELD_90 = ERR 0
+send: 0d 00 03 01 00 fa 0b 5b 00 00 01 71
+recv: 03 00 0d 02 00 fa 0b 5b 00 00 01 72
+Elster 180.0b5b.0000: FEHLERFELD_91 = 0
+send: 0d 00 03 01 00 fa 0b 5c 00 00 01 72
+recv: 03 00 0d 02 00 fa 0b 5c 00 00 01 73
+Elster 180.0b5c.0000: FEHLERFELD_92 = 0
+send: 0d 00 03 01 00 fa 0b 5d 00 00 01 73
+recv: 03 00 0d 02 00 fa 0b 5d 00 00 01 74
+Elster 180.0b5d.0000: FEHLERFELD_93 = 0
+send: 0d 00 03 01 00 fa 0b 5e 00 00 01 74
+recv: 03 00 0d 02 00 fa 0b 5e 00 00 01 75
+Elster 180.0b5e.0000: FEHLERFELD_94 = 0
+send: 0d 00 03 01 00 fa 0b 5f 00 00 01 75
+recv: 03 00 0d 02 00 fa 0b 5f 00 00 01 76
+Elster 180.0b5f.0000: FEHLERFELD_95 = 0
+send: 0d 00 03 01 00 fa 0b 60 00 00 01 76
+recv: 03 00 0d 02 00 fa 0b 60 00 00 01 77
+Elster 180.0b60.0000: FEHLERFELD_96 = 1
+send: 0d 00 03 01 00 fa 0b 61 00 00 01 77
+recv: 03 00 0d 02 00 fa 0b 61 00 00 01 78
+Elster 180.0b61.0000: FEHLERFELD_97 = ERR 0
+send: 0d 00 03 01 00 fa 0b 62 00 00 01 78
+recv: 03 00 0d 02 00 fa 0b 62 00 00 01 79
+Elster 180.0b62.0000: FEHLERFELD_98 = 0
+send: 0d 00 03 01 00 fa 0b 63 00 00 01 79
+recv: 03 00 0d 02 00 fa 0b 63 00 00 01 7a
+Elster 180.0b63.0000: FEHLERFELD_99 = 0
+send: 0d 00 03 01 00 fa 0b 64 00 00 01 7a
+recv: 03 00 0d 02 00 fa 0b 64 00 00 01 7b
+Elster 180.0b64.0000: FEHLERFELD_100 = 0
+send: 0d 00 03 01 00 fa 0b 65 00 00 01 7b
+recv: 03 00 0d 02 00 fa 0b 65 00 00 01 7c
+Elster 180.0b65.0000: FEHLERFELD_101 = 0
+send: 0d 00 03 01 00 fa 0b 66 00 00 01 7c
+recv: 03 00 0d 02 00 fa 0b 66 00 00 01 7d
+Elster 180.0b66.0000: FEHLERFELD_102 = 0
+send: 0d 00 03 01 00 fa 0b 67 00 00 01 7d
+recv: 03 00 0d 02 00 fa 0b 67 00 00 01 7e
+Elster 180.0b67.0000: FEHLERFELD_103 = 1
+send: 0d 00 03 01 00 fa 0b 68 00 00 01 7e
+recv: 03 00 0d 02 00 fa 0b 68 00 00 01 7f
+Elster 180.0b68.0000: FEHLERFELD_104 = ERR 0
+send: 0d 00 03 01 00 fa 0b 69 00 00 01 7f
+recv: 03 00 0d 02 00 fa 0b 69 00 00 01 80
+Elster 180.0b69.0000: FEHLERFELD_105 = 0
+send: 0d 00 03 01 00 fa 0b 6a 00 00 01 80
+recv: 03 00 0d 02 00 fa 0b 6a 00 00 01 81
+Elster 180.0b6a.0000: FEHLERFELD_106 = 0
+send: 0d 00 03 01 00 fa 0b 6b 00 00 01 81
+recv: 03 00 0d 02 00 fa 0b 6b 00 00 01 82
+Elster 180.0b6b.0000: FEHLERFELD_107 = 0
+send: 0d 00 03 01 00 fa 0b 6c 00 00 01 82
+recv: 03 00 0d 02 00 fa 0b 6c 00 00 01 83
+Elster 180.0b6c.0000: FEHLERFELD_108 = 0
+send: 0d 00 03 01 00 fa 0b 6d 00 00 01 83
+recv: 03 00 0d 02 00 fa 0b 6d 00 00 01 84
+Elster 180.0b6d.0000: FEHLERFELD_109 = 0
+send: 0d 00 03 01 00 fa 0b 6e 00 00 01 84
+recv: 03 00 0d 02 00 fa 0b 6e 00 00 01 85
+Elster 180.0b6e.0000: FEHLERFELD_110 = 1
+send: 0d 00 03 01 00 fa 0b 6f 00 00 01 85
+recv: 03 00 0d 02 00 fa 0b 6f 00 00 01 86
+Elster 180.0b6f.0000: FEHLERFELD_111 = ERR 0
+send: 0d 00 03 01 00 fa 0b 70 00 00 01 86
+recv: 03 00 0d 02 00 fa 0b 70 00 00 01 87
+Elster 180.0b70.0000: FEHLERFELD_112 = 0
+send: 0d 00 03 01 00 fa 0b 71 00 00 01 87
+recv: 03 00 0d 02 00 fa 0b 71 00 00 01 88
+Elster 180.0b71.0000: FEHLERFELD_113 = 0
+send: 0d 00 03 01 00 fa 0b 72 00 00 01 88
+recv: 03 00 0d 02 00 fa 0b 72 00 00 01 89
+Elster 180.0b72.0000: FEHLERFELD_114 = 0
+send: 0d 00 03 01 00 fa 0b 73 00 00 01 89
+recv: 03 00 0d 02 00 fa 0b 73 00 00 01 8a
+Elster 180.0b73.0000: FEHLERFELD_115 = 0
+send: 0d 00 03 01 00 fa 0b 74 00 00 01 8a
+recv: 03 00 0d 02 00 fa 0b 74 00 00 01 8b
+Elster 180.0b74.0000: FEHLERFELD_116 = 0
+send: 0d 00 03 01 00 fa 0b 75 00 00 01 8b
+recv: 03 00 0d 02 00 fa 0b 75 00 00 01 8c
+Elster 180.0b75.0000: FEHLERFELD_117 = 1
+send: 0d 00 03 01 00 fa 0b 76 00 00 01 8c
+recv: 03 00 0d 02 00 fa 0b 76 00 00 01 8d
+Elster 180.0b76.0000: FEHLERFELD_118 = ERR 0
+send: 0d 00 03 01 00 fa 0b 77 00 00 01 8d
+recv: 03 00 0d 02 00 fa 0b 77 00 00 01 8e
+Elster 180.0b77.0000: FEHLERFELD_119 = 0
+send: 0d 00 03 01 00 fa 0b 78 00 00 01 8e
+recv: 03 00 0d 02 00 fa 0b 78 00 00 01 8f
+Elster 180.0b78.0000: FEHLERFELD_120 = 0
+send: 0d 00 03 01 00 fa 0b 79 00 00 01 8f
+recv: 03 00 0d 02 00 fa 0b 79 00 00 01 90
+Elster 180.0b79.0000: FEHLERFELD_121 = 0
+send: 0d 00 03 01 00 fa 0b 7a 00 00 01 90
+recv: 03 00 0d 02 00 fa 0b 7a 00 00 01 91
+Elster 180.0b7a.0000: FEHLERFELD_122 = 0
+send: 0d 00 03 01 00 fa 0b 7b 00 00 01 91
+recv: 03 00 0d 02 00 fa 0b 7b 00 00 01 92
+Elster 180.0b7b.0000: FEHLERFELD_123 = 0
+send: 0d 00 03 01 00 fa 0b 7c 00 00 01 92
+recv: 03 00 0d 02 00 fa 0b 7c 00 00 01 93
+Elster 180.0b7c.0000: FEHLERFELD_124 = 1
+send: 0d 00 03 01 00 fa 0b 7d 00 00 01 93
+recv: 03 00 0d 02 00 fa 0b 7d 00 00 01 94
+Elster 180.0b7d.0000: FEHLERFELD_125 = ERR 0
+send: 0d 00 03 01 00 fa 0b 7e 00 00 01 94
+recv: 03 00 0d 02 00 fa 0b 7e 00 00 01 95
+Elster 180.0b7e.0000: FEHLERFELD_126 = 0
+send: 0d 00 03 01 00 fa 0b 7f 00 00 01 95
+recv: 03 00 0d 02 00 fa 0b 7f 00 00 01 96
+Elster 180.0b7f.0000: FEHLERFELD_127 = 0
+send: 0d 00 03 01 00 fa 0b 80 00 00 01 96
+recv: 03 00 0d 02 00 fa 0b 80 00 00 01 97
+Elster 180.0b80.0000: FEHLERFELD_128 = 0
+send: 0d 00 03 01 00 fa 0b 81 00 00 01 97
+recv: 03 00 0d 02 00 fa 0b 81 00 00 01 98
+Elster 180.0b81.0000: FEHLERFELD_129 = 0
+send: 0d 00 03 01 00 fa 0b 82 00 00 01 98
+recv: 03 00 0d 02 00 fa 0b 82 00 00 01 99
+Elster 180.0b82.0000: FEHLERFELD_130 = 0
+send: 0d 00 03 01 00 fa 0b 83 00 00 01 99
+recv: 03 00 0d 02 00 fa 0b 83 00 00 01 9a
+Elster 180.0b83.0000: FEHLERFELD_131 = 1
+send: 0d 00 03 01 00 fa 0b 84 00 00 01 9a
+recv: 03 00 0d 02 00 fa 0b 84 00 00 01 9b
+Elster 180.0b84.0000: FEHLERFELD_132 = ERR 0
+send: 0d 00 03 01 00 fa 0b 85 00 00 01 9b
+recv: 03 00 0d 02 00 fa 0b 85 00 00 01 9c
+Elster 180.0b85.0000: FEHLERFELD_133 = 0
+send: 0d 00 03 01 00 fa 0b 86 00 00 01 9c
+recv: 03 00 0d 02 00 fa 0b 86 00 00 01 9d
+Elster 180.0b86.0000: FEHLERFELD_134 = 0
+send: 0d 00 03 01 00 fa 0b 87 00 00 01 9d
+recv: 03 00 0d 02 00 fa 0b 87 00 00 01 9e
+Elster 180.0b87.0000: FEHLERFELD_135 = 0
+send: 0d 00 03 01 00 fa 0b 88 00 00 01 9e
+recv: 03 00 0d 02 00 fa 0b 88 00 00 01 9f
+Elster 180.0b88.0000: FEHLERFELD_136 = 0
+send: 0d 00 03 01 00 fa 0b 89 00 00 01 9f
+recv: 03 00 0d 02 00 fa 0b 89 00 00 01 a0
+Elster 180.0b89.0000: FEHLERFELD_137 = 0
+send: 0d 00 03 01 00 fa 0b 8a 00 00 01 a0
+recv: 03 00 0d 02 00 fa 0b 8a 00 00 01 a1
+Elster 180.0b8a.0000: FEHLERFELD_138 = 1
+send: 0d 00 03 01 00 fa 0b 8b 00 00 01 a1
+recv: 03 00 0d 02 00 fa 0b 8b 00 00 01 a2
+Elster 180.0b8b.0000: FEHLERFELD_139 = ERR 0
+send: 0d 00 09 01 00 fb 80 00 00 00 01 92
+recv: 09 00 0d 02 00 fb 80 00 00 00 01 93
+Elster 480.00fb.8000: SYSTEM_RESET = not available
+send: 0d 00 03 01 00 fa 0b 00 00 1f 01 35
+recv: 03 00 0d 02 00 fa 0b 00 00 1f 01 36
+Elster 180.0b00.001f: FEHLERFELD_0 = 31
+send: 0d 00 03 01 00 fa 0b 01 00 02 01 19
+recv: 03 00 0d 02 00 fa 0b 01 00 02 01 1a
+Elster 180.0b01.0002: FEHLERFELD_1 = 2
+send: 0d 00 03 01 00 fa 0b 02 00 1b 01 33
+recv: 03 00 0d 02 00 fa 0b 02 00 1b 01 34
+Elster 180.0b02.001b: FEHLERFELD_2 = 27
+send: 0d 00 03 01 00 fa 0b 03 00 0b 01 24
+recv: 03 00 0d 02 00 fa 0b 03 00 0b 01 25
+Elster 180.0b03.000b: FEHLERFELD_3 = 11
+send: 0d 00 03 01 00 fa 0b 04 00 10 01 2a
+recv: 03 00 0d 02 00 fa 0b 04 00 10 01 2b
+Elster 180.0b04.0010: FEHLERFELD_4 = 16
+send: 0d 00 03 01 00 fa 0b 05 00 12 01 2d
+recv: 03 00 0d 02 00 fa 0b 05 00 12 01 2e
+Elster 180.0b05.0012: FEHLERFELD_5 = 19
+send: 0d 00 03 01 00 fa 0b 06 00 00 01 1c
+recv: 03 00 0d 02 00 fa 0b 06 00 00 01 1d
+Elster 180.0b06.0000: FEHLERFELD_6 = ERR 0
+send: 0d 00 03 01 00 fa 0b 07 00 14 01 31
+recv: 03 00 0d 02 00 fa 0b 07 00 14 01 32
+Elster 180.0b07.0014: FEHLERFELD_7 = 20
+send: 0d 00 03 01 00 fa 0b 08 00 03 01 21
+recv: 03 00 0d 02 00 fa 0b 08 00 03 01 22
+Elster 180.0b08.0003: FEHLERFELD_8 = 3
+send: 0d 00 03 01 00 fa 0b 09 00 1e 01 3d
+recv: 03 00 0d 02 00 fa 0b 09 00 1e 01 3e
+Elster 180.0b09.001e: FEHLERFELD_9 = 30
+send: 0d 00 03 01 00 fa 0b 0a 00 0b 01 2b
+recv: 03 00 0d 02 00 fa 0b 0a 00 0b 01 2c
+Elster 180.0b0a.000b: FEHLERFELD_10 = 11
+send: 0d 00 03 01 00 fa 0b 0b 00 10 01 31
+recv: 03 00 0d 02 00 fa 0b 0b 00 10 01 32
+Elster 180.0b0b.0010: FEHLERFELD_11 = 16
+send: 0d 00 03 01 00 fa 0b 0c 00 12 01 34
+recv: 03 00 0d 02 00 fa 0b 0c 00 12 01 35
+Elster 180.0b0c.0012: FEHLERFELD_12 = 19
+send: 0d 00 03 01 00 fa 0b 0d 00 00 01 23
+recv: 03 00 0d 02 00 fa 0b 0d 00 00 01 24
+Elster 180.0b0d.0000: FEHLERFELD_13 = ERR 0
+send: 0d 00 03 01 00 fa 0b 0e 00 1c 01 40
+recv: 03 00 0d 02 00 fa 0b 0e 00 1c 01 41
+Elster 180.0b0e.001c: FEHLERFELD_14 = 28
+send: 0d 00 03 01 00 fa 0b 0f 00 03 01 28
+recv: 03 00 0d 02 00 fa 0b 0f 00 03 01 29
+Elster 180.0b0f.0003: FEHLERFELD_15 = 3
+send: 0d 00 03 01 00 fa 0b 10 00 1d 01 43
+recv: 03 00 0d 02 00 fa 0b 10 00 1d 01 44
+Elster 180.0b10.001d: FEHLERFELD_16 = 29
+send: 0d 00 03 01 00 fa 0b 11 00 0c 01 33
+recv: 03 00 0d 02 00 fa 0b 11 00 0c 01 34
+Elster 180.0b11.000c: FEHLERFELD_17 = 12
+send: 0d 00 03 01 00 fa 0b 12 00 10 01 38
+recv: 03 00 0d 02 00 fa 0b 12 00 10 01 39
+Elster 180.0b12.0010: FEHLERFELD_18 = 16
+send: 0d 00 03 01 00 fa 0b 13 00 12 01 3b
+recv: 03 00 0d 02 00 fa 0b 13 00 12 01 3c
+Elster 180.0b13.0012: FEHLERFELD_19 = 19
+send: 0d 00 03 01 00 fa 0b 14 00 00 01 2a
+recv: 03 00 0d 02 00 fa 0b 14 00 00 01 2b
+Elster 180.0b14.0000: FEHLERFELD_20 = ERR 0
+send: 0d 00 03 01 00 fa 0b 15 00 00 01 2b
+recv: 03 00 0d 02 00 fa 0b 15 00 00 01 2c
+Elster 180.0b15.0000: FEHLERFELD_21 = 0
+send: 0d 00 03 01 00 fa 0b 16 00 00 01 2c
+recv: 03 00 0d 02 00 fa 0b 16 00 00 01 2d
+Elster 180.0b16.0000: FEHLERFELD_22 = 0
+send: 0d 00 03 01 00 fa 0b 17 00 00 01 2d
+recv: 03 00 0d 02 00 fa 0b 17 00 00 01 2e
+Elster 180.0b17.0000: FEHLERFELD_23 = 0
+send: 0d 00 03 01 00 fa 0b 18 00 00 01 2e
+recv: 03 00 0d 02 00 fa 0b 18 00 00 01 2f
+Elster 180.0b18.0000: FEHLERFELD_24 = 0
+send: 0d 00 03 01 00 fa 0b 19 00 00 01 2f
+recv: 03 00 0d 02 00 fa 0b 19 00 00 01 30
+Elster 180.0b19.0000: FEHLERFELD_25 = 0
+send: 0d 00 03 01 00 fa 0b 1a 00 00 01 30
+recv: 03 00 0d 02 00 fa 0b 1a 00 00 01 31
+Elster 180.0b1a.0000: FEHLERFELD_26 = 1
+send: 0d 00 03 01 00 fa 0b 1b 00 00 01 31
+recv: 03 00 0d 02 00 fa 0b 1b 00 00 01 32
+Elster 180.0b1b.0000: FEHLERFELD_27 = ERR 0
+send: 0d 00 03 01 00 fa 0b 1c 00 00 01 32
+recv: 03 00 0d 02 00 fa 0b 1c 00 00 01 33
+Elster 180.0b1c.0000: FEHLERFELD_28 = 0
+send: 0d 00 03 01 00 fa 0b 1d 00 00 01 33
+recv: 03 00 0d 02 00 fa 0b 1d 00 00 01 34
+Elster 180.0b1d.0000: FEHLERFELD_29 = 0
+send: 0d 00 03 01 00 fa 0b 1e 00 00 01 34
+recv: 03 00 0d 02 00 fa 0b 1e 00 00 01 35
+Elster 180.0b1e.0000: FEHLERFELD_30 = 0
+send: 0d 00 03 01 00 fa 0b 1f 00 00 01 35
+recv: 03 00 0d 02 00 fa 0b 1f 00 00 01 36
+Elster 180.0b1f.0000: FEHLERFELD_31 = 0
+send: 0d 00 03 01 00 fa 0b 20 00 00 01 36
+recv: 03 00 0d 02 00 fa 0b 20 00 00 01 37
+Elster 180.0b20.0000: FEHLERFELD_32 = 0
+send: 0d 00 03 01 00 fa 0b 21 00 00 01 37
+recv: 03 00 0d 02 00 fa 0b 21 00 00 01 38
+Elster 180.0b21.0000: FEHLERFELD_33 = 1
+send: 0d 00 03 01 00 fa 0b 22 00 00 01 38
+recv: 03 00 0d 02 00 fa 0b 22 00 00 01 39
+Elster 180.0b22.0000: FEHLERFELD_34 = ERR 0
+send: 0d 00 03 01 00 fa 0b 23 00 00 01 39
+recv: 03 00 0d 02 00 fa 0b 23 00 00 01 3a
+Elster 180.0b23.0000: FEHLERFELD_35 = 0
+send: 0d 00 03 01 00 fa 0b 24 00 00 01 3a
+recv: 03 00 0d 02 00 fa 0b 24 00 00 01 3b
+Elster 180.0b24.0000: FEHLERFELD_36 = 0

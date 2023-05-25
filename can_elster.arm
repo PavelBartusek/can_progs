@@ -1,0 +1,27 @@
+rm elster.so
+
+export PY_VERS=python3.7
+
+${CROSS_COMPILE}g++ -shared -fPIC -Wall -D__LINUX__ -D__CONSOLE__ -D__CAN__ -D__ARM__ -D__PYTHON__ -Wno-nonnull-compare \
+  -I/usr/include/$PY_VERS -L/usr/lib/$PY_VERS -lc -lpthread -l${PY_VERS}m \
+  KIpSocket.cpp \
+  KThread.cpp \
+  KCriticalSection.cpp \
+  KCanDriver.cpp \
+  KComm.cpp \
+  KCanCommDriver.cpp \
+  KSocketCanDriver.cpp \
+  KCanServer.cpp \
+  KStream.cpp \
+  NUtils.cpp \
+  NCanUtils.cpp \
+  KElsterTable.cpp \
+  KScanTable.cpp \
+  KCanElster.cpp \
+  elster_instance.cpp \
+  KSniffedFrame.cpp \
+  KCanTcpDriver.cpp \
+  KTcpClient.cpp \
+  elster_py.cpp \
+  -o elster.so
+

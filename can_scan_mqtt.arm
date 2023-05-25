@@ -1,0 +1,29 @@
+#
+# usage: ./can_logger <can dev> <sender can id>  <receiver can id> [ "." <elster index> ]  "mqtt@<ip address>:<port>"
+#
+# "mqtt@localhost:1883" is default
+#
+
+rm can_scan_mqtt
+
+${CROSS_COMPILE}g++ -Wall $1 $2 -D__LINUX__ -D__CONSOLE__ -D__CAN__ -D__ARM__ -D__SCAN__ -Wno-nonnull-compare -lpthread \
+  -D__MQTT__ -L/usr/local/include -lpaho-mqtt3c \
+  KIpSocket.cpp \
+  KThread.cpp \
+  KCriticalSection.cpp \
+  KCanDriver.cpp \
+  KComm.cpp \
+  KSocketCanDriver.cpp \
+  KCanServer_.cpp \
+  KStream.cpp \
+  NUtils.cpp \
+  NCanUtils.cpp \
+  KElsterTable.cpp \
+  KCanElster.cpp \
+  KScanTable.cpp \
+  KCanCommDriver.cpp \
+  KSniffedFrame.cpp \
+  KCanTcpDriver.cpp \
+  KTcpClient.cpp \
+  KCanMqtt.cpp \
+  -o can_scan_mqtt

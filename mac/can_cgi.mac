@@ -1,0 +1,21 @@
+rm can_cgi
+
+g++ -Wall -D__LINUX__ -D__MAC__ -D__CONSOLE__ -D__CAN__ -D__CGI__ -I/User/${HOME}/Downloads/can_progs \
+  ../KIpSocket.cpp \
+  ../KThread.cpp \
+  ../KCriticalSection.cpp \
+  ../KCanDriver.cpp \
+  ../KComm.cpp \
+  ../KCanCommDriver.cpp \
+  ../KCanServer.cpp \
+  ../KStream.cpp \
+  ../NUtils.cpp \
+  ../NCanUtils.cpp \
+  ../KCanElster.cpp \
+  ../KElsterTable.cpp \
+  ../KScanTable.cpp \
+  ../KSniffedFrame.cpp \
+  ../KCanTcpDriver.cpp \
+  ../KTcpClient.cpp \
+  ../NCgi.cpp \
+  -o can_cgi

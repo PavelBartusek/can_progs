@@ -1,0 +1,9 @@
+
+g++ -Wall $1 $2 -D__LINUX__ -D__MAC__ -D__64__ -D__CONSOLE__ -D__CAN__ -D__MYSQL__ -lc -lpthread -ldl -I.. \
+  ../VList.cpp \
+  ../KStream.cpp \
+  ../NUtils.cpp \
+  ../NCanUtils.cpp \
+  ../KElsterTable.cpp \
+  LogAnalize.cpp \
+  -o log_analize

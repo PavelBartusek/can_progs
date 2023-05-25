@@ -1,0 +1,39 @@
+#
+# usage: ./can_logger <can dev> <sender can id> <sample time in sec> "mqtt@<ip address>:<port>"
+#
+# "mqtt@localhost:1883" is default
+#
+
+rm can_logger_mqtt
+
+mysql_flag=""
+if [ -f /usr/include/mysql/mysql.h ]
+then
+  mysql_flag="-D__MYSQL__"
+fi
+
+${CROSS_COMPILE}g++ -Wall $1 $2 -D__LINUX__ -D__CAN__ -D__ARM__ -D__CONSOLE__ $mysql_flag -Wno-nonnull-compare \
+  -D__MQTT__ -L/usr/local/include -lpthread -lpaho-mqtt3c \
+  CanLogger.cpp \
+  KIpSocket.cpp \
+  KThread.cpp \
+  KCriticalSection.cpp \
+  KCanDriver.cpp \
+  KComm.cpp \
+  KSocketCanDriver.cpp \
+  KCanServer_.cpp \
+  KStream.cpp \
+  NUtils.cpp \
+  NCanUtils.cpp \
+  KXmlParser.cpp \
+  KXmlNodeList.cpp \
+  KMySql.cpp \
+  KElsterTable.cpp \
+  KCanUVR.cpp \
+  KTcpClient.cpp \
+  KHttpClient.cpp \
+  KCanCommDriver.cpp \
+  KCanTcpDriver.cpp \
+  KCanMqtt.cpp \
+  -o can_logger_mqtt
+
